@@ -203,8 +203,12 @@
 
 			/* Upon load */
 			$(window).load(function() {
+				$('#flap').load(function() {
+					$('#flap').fadeIn(500);
+				});
 				var envelope = $('#envelope');
-				envelope.fadeIn(1000);
+				envelope.fadeIn(500);
+
 				$('#enter-text').click(function() {
 					envelope.addClass('flipUp');
 					$('.accordion').fadeIn(1500);
