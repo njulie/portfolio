@@ -179,7 +179,7 @@
 				var envelope = $('#envelope');
 
 				/* Upon load */
-				envelope.fadeIn(1000);
+				$(window).load(function() {envelope.fadeIn(1000)});
 
 				$('#enter-text').click(function() {
 					envelope.addClass('flipUp');
