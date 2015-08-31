@@ -177,9 +177,6 @@
 
 				var envelope = $('#envelope');
 
-				/* Upon load */
-				$(window).load(function() {envelope.fadeIn(1000)});
-
 				$('#enter-text').click(function() {
 					envelope.addClass('flipUp');
 					$('.accordion').fadeIn(1500);
@@ -211,6 +208,11 @@
 			 
 			        e.preventDefault();
 			    });
+
+			    /* Upon load */
+				$(window).load(function() {
+					envelope.fadeIn(1000);
+				});
 			});
 
 		</script>
