@@ -87,10 +87,10 @@ div#flap {
 }
 
 .flipUp {
-	-webkit-animation: flipUp 1.5s linear 1 normal;
-	-moz-animation: flipUp 1.5s linear 1 normal;
-	-o-animation: flipUp 1.5s linear 1 normal;
-	animation: flipUp 1.5s linear 1 normal;
+	-webkit-animation: flipUp 2s linear 1 normal;
+	-moz-animation: flipUp 2s linear 1 normal;
+	-o-animation: flipUp 2s linear 1 normal;
+	animation: flipUp 2s linear 1 normal;
 
 	-webkit-transform-origin: 100% 0;
 	-moz-transform-origins: 100% 0;
