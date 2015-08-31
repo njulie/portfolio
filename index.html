@@ -203,11 +203,8 @@
 
 			/* Upon load */
 			$(window).load(function() {
-				$('#flap').load(function() {
-					$('#flap').fadeIn(500);
-				});
 				var envelope = $('#envelope');
-				envelope.fadeIn(500);
+				envelope.animate({opacity: 1}, 1000);
 
 				$('#enter-text').click(function() {
 					envelope.addClass('flipUp');
