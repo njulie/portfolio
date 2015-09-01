@@ -218,8 +218,18 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
     display: none;
     background-color: #fff;
 }
+#accordion-1 {
+	background-color: blanchedalmond; /* peachpuff */
+}
+#accordion-2 {
+	background-color: #fff0f2;
+}
+#accordion-3 {
+	background-color: aliceblue;
+}
 #accordion-4 {
 	display: block;
+	background-color: #E0EEE0; /* seafoam green */
 }
 
 /* Each accordion drop down */
@@ -320,7 +330,7 @@ section.my-information div#about {
 }
 section.my-information div#about img {
 	padding: 20px;
-	border: 1px solid #484848;
+	border: 1px solid #9a9a9a;
 	border-radius: 8px;
 	margin: auto;
 }
