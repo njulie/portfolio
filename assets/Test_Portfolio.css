@@ -219,13 +219,13 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
     background-color: #fff;
 }
 #accordion-1 {
-	background-color: blanchedalmond; /* peachpuff */
+	background-color: #FCE6C9; /* eggshell */
 }
 #accordion-2 {
-	background-color: #fff0f2;
+	background-color: #ffe9ec; /* rose pink */
 }
 #accordion-3 {
-	background-color: aliceblue;
+	background-color: #e6f3f7; /* light blue */
 }
 #accordion-4 {
 	display: block;
