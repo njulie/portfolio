@@ -11,20 +11,32 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
-	letter-spacing: 0.4px;
+	letter-spacing: 0.5px;
 	font-weight: 300;
 	color: #272727;
 	line-height: 1.5em;
 	font-size: 1em;
-
 }
 
 h1 {
-	font-size: 3.2em;
-	font-family: 'Pacifico', cursive;
+	font-size: 2.7em;
+	font-family: 'Pacifico', Brush Script MT, cursive;
+}
+h2 {
+	font-size: 1.8em;
+	font-family: 'Pacifico', Brush Script MT, cursive;
 }
 h3 {
+	font-size: 1.25em;
+}
+h5 {
 	color: #efefef;
+}
+p {
+	font-size: 0.9em;
+}
+mark {
+	background-color: #FFDDAA;
 }
 
 
@@ -59,7 +71,7 @@ p#enter-text:hover {
 	filter: alpha(opacity=70);
 }
 p#enter-text {
-	font-size: 1.7em;
+	font-size: 1.75em;
 	font-family: 'Pacifico', cursive;
 	display: inline-block;
 	padding: 10px 20px;
@@ -88,10 +100,10 @@ div#flap {
 }
 
 .flipUp {
-	-webkit-animation: flipUp 2s linear 1 normal;
-	-moz-animation: flipUp 2s linear 1 normal;
-	-o-animation: flipUp 2s linear 1 normal;
-	animation: flipUp 2s linear 1 normal;
+	-webkit-animation: flipUp 1.2s linear 1 normal;
+	-moz-animation: flipUp 1.2s linear 1 normal;
+	-o-animation: flipUp 1.2s linear 1 normal;
+	animation: flipUp 1.2s linear 1 normal;
 
 	-webkit-transform-origin: 100% 0;
 	-moz-transform-origins: 100% 0;
@@ -178,8 +190,8 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
 }
 
 /* ---- Specific Section Titles ----- */
-#creative-link {color:#ED872D;}
-#creative-link.active, #creative-link:hover {color: #f7f7f7; background-color: #ED872D;}
+#creative-link {color:#E49450;}
+#creative-link.active, #creative-link:hover {color: #f7f7f7; background-color: #F4A460;}
 
 #italy-link {color: #A5435C;}
 #italy-link.active, #italy-link:hover {color: #f7f7f7; background-color: #A5435C;}
@@ -227,9 +239,9 @@ div.row {
 section.my-information div.dance-snippet {
 	padding: 10px 0;
 }
-section.my-information div.dance-snippet figure figcaption h3,
+section.my-information div.dance-snippet figure figcaption h5,
 section.my-information div.dance-snippet figure figcaption p,
-section.my-information div.dance-snippet figure figcaption h3 span.yellow-hover,
+section.my-information div.dance-snippet figure figcaption h5 span.yellow-hover,
 section.my-information div.dance-snippet figure img {
 	-webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
@@ -245,13 +257,13 @@ section.my-information div.dance-snippet figure:hover img {
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
-section.my-information div.dance-snippet figure:hover figcaption h3 {
+section.my-information div.dance-snippet figure:hover figcaption h5 {
 	-moz-transform: translate3d(0, 15%, 0);
   	-ms-transform: translate3d(0, 15%, 0);
   	-webkit-transform: translate3d(0, 15%, 0);
   	transform: translate3d(0, 15%, 0);
 }
-section.my-information div.dance-snippet figure:hover figcaption h3 span.yellow-hover {
+section.my-information div.dance-snippet figure:hover figcaption h5 span.yellow-hover {
   	color: #FFDDAA;
 }
 section.my-information div.dance-snippet figure:hover figcaption p {
@@ -282,13 +294,13 @@ section.my-information div.dance-snippet figure figcaption {
 	width: 100%;
 	height: 100%;
 }
-section.my-information div.dance-snippet figure figcaption h3 {
+section.my-information div.dance-snippet figure figcaption h5 {
 	line-height: 3em;
 	position: relative;
 	top: 45px;
 	font-size: 1.2em;
 }
-section.my-information div.dance-snippet figure figcaption h3 span.rly-strong {
+section.my-information div.dance-snippet figure figcaption h5 span.rly-strong {
 	font-weight: 600;
 }
 section.my-information div.dance-snippet figure figcaption p {
@@ -333,13 +345,13 @@ div.project {
 div.project figure img {
 	border-radius: 1px;
 }
-/*div.project figure a {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-}*/
 
+
+/* --------- Italy ----------- */
+div#accordion-2 section.my-information {
+	max-width: 550px;
+	margin: auto;
+}
 
 
 /* ===================
@@ -349,10 +361,16 @@ div.project figure img {
 
 /* Small devices */
 @media (min-width: 768px) {
-	p#enter-text {
-		font-size: 2.5em;
+	h2 {
+		font-size: 2.25em;
 	}
-	section.my-information div.dance-snippet figure figcaption h3 {
+	h3 {
+		font-size: 1.7em;
+	}
+	p#enter-text {
+		font-size: 2.25em;
+	}
+	section.my-information div.dance-snippet figure figcaption h5 {
 		line-height: 4em;
 	}
 	section.my-information div.dance-snippet figure figcaption p {
@@ -363,6 +381,9 @@ div.project figure img {
 
 /* Medium devices */
 @media (min-width: 992px) {
+	h1 {
+		font-size: 3em;
+	}
 	div#accordion-4 section.my-information {
 		max-width: 475px;
 		margin: auto;
