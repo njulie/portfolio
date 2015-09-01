@@ -24,7 +24,7 @@
 	<body>
 		<div id="envelope">
 			<div id="flap"></div>
-			<div class="center-text" id="enter-btn"><p id="enter-text">open the envelope</p></div>
+			<div class="center-text" id="enter-btn"><p id="enter-text"><span id="open">open</span> the envelope</p></div>
 		</div>
 
 		<div class="accordion">
@@ -184,7 +184,6 @@
 		    </div><!--end .accordion-section-->
 		</div><!--end .accordion-->
 
-
 			
 
 		<script src="assets/jquery-1.11.3.min.js"></script>
@@ -224,7 +223,7 @@
 				var envelope = $('#envelope');
 				envelope.animate({opacity: 1}, 1000);
 
-				$('#enter-text').click(function() {
+				$('#open').click(function() {
 					envelope.addClass('flipUp');
 					$('.accordion').fadeIn(1500);
 					setTimeout(function() {

@@ -13,7 +13,7 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.5px;
 	font-weight: 300;
-	color: #4a4a4a;
+	color: #373737;
 	line-height: 1.5em;
 	font-size: 1em;
 	background-color: #92CCA6;
@@ -45,6 +45,7 @@ mark {
 a {
 	-webkit-transition: all linear .15s;
     -moz-transition: all linear .15s;
+    -o-transition: all linear .15s;
     transition: all linear .15s;
 }
 a:hover {
@@ -65,11 +66,6 @@ a, a:hover, a:focus, a:active {
 	top: 45%;
 	display: block;
 	width: 100%;
-	cursor: pointer;
-}
-p#enter-text:hover {
-	opacity: 0.7;
-	filter: alpha(opacity=70);
 }
 p#enter-text {
 	font-size: 2em;
@@ -79,10 +75,24 @@ p#enter-text {
 	margin: 0;
 	/*border: 2px solid #f3f3f3;
 	background-color: indianred;*/
-	color: #e7e7e7;
+	color: #1a1a1a;
 	-webkit-transition: all linear 0.2s;
 	-moz-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
 	transition: all linear 0.2s;
+}
+p#enter-text span#open {
+	text-decoration: underline;
+	color: #dfdfdf;
+	cursor: pointer;
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+p#enter-text span#open:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
 }
 div#envelope {
 	position: absolute;
@@ -256,6 +266,7 @@ section.my-information div.dance-snippet figure figcaption h5 span.yellow-hover,
 section.my-information div.dance-snippet figure img {
 	-webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
     transition: all linear .2s;
  }
 section.my-information div.dance-snippet figure {
@@ -396,6 +407,9 @@ div#accordion-2 section.my-information {
 @media (min-width: 992px) {
 	h1 {
 		font-size: 3em;
+	}
+	p#enter-text {
+		font-size: 4.00em;
 	}
 	div#accordion-4 section.my-information {
 		max-width: 475px;
