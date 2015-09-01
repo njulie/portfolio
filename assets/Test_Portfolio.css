@@ -16,6 +16,7 @@ body {
 	color: #4a4a4a;
 	line-height: 1.5em;
 	font-size: 1em;
+	background-color: #92CCA6;
 }
 
 h1 {
@@ -61,7 +62,7 @@ a, a:hover, a:focus, a:active {
 /* Envelope on home page */
 #enter-btn {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	display: block;
 	width: 100%;
 	cursor: pointer;
@@ -71,13 +72,13 @@ p#enter-text:hover {
 	filter: alpha(opacity=70);
 }
 p#enter-text {
-	font-size: 1.75em;
+	font-size: 2em;
 	font-family: 'Pacifico', cursive;
 	display: inline-block;
 	padding: 10px 20px;
 	margin: 0;
-	border: 2px solid #f3f3f3;
-	background-color: indianred;
+	/*border: 2px solid #f3f3f3;
+	background-color: indianred;*/
 	color: #e7e7e7;
 	-webkit-transition: all linear 0.2s;
 	-moz-transition: all linear 0.2s;
@@ -229,7 +230,7 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
 }
 #accordion-4 {
 	display: block;
-	background-color: #E0EEE0; /* seafoam green */
+	background-color: #e5f8e5; /* seafoam green */
 }
 
 /* Each accordion drop down */
@@ -380,7 +381,7 @@ div#accordion-2 section.my-information {
 		font-size: 1.7em;
 	}
 	p#enter-text {
-		font-size: 2.25em;
+		font-size: 3.5em;
 	}
 	section.my-information div.dance-snippet figure figcaption h5 {
 		line-height: 4em;

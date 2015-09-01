@@ -24,7 +24,7 @@
 	<body>
 		<div id="envelope">
 			<div id="flap"></div>
-			<div class="center-text" id="enter-btn"><p id="enter-text">flip open julie's portfolio</p></div>
+			<div class="center-text" id="enter-btn"><p id="enter-text">open the envelope</p></div>
 		</div>
 
 		<div class="accordion">
@@ -229,6 +229,7 @@
 					$('.accordion').fadeIn(1500);
 					setTimeout(function() {
 						envelope.fadeOut(300);
+						document.getElementsByTagName("body")[0].style.backgroundColor = "ivory";
 					}, 900);
 				});
 			});
