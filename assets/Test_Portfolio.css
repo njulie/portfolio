@@ -10,7 +10,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, sans-serif;
 	letter-spacing: 0.5px;
 	font-weight: 300;
 	color: #373737;
@@ -347,13 +347,16 @@ section.my-information div#about img {
 	margin: auto;
 }
 div#accordion-4 section.my-information div#about-description {
-	padding: 30px 0;
-	max-width: 310px;
+	padding: 30px 5px;
+	max-width: 475px;
 	margin: auto;
 }
 div#accordion-4 section.my-information {
 	max-width: 550px;
 	margin: auto;
+}
+div#accordion-4 p {
+	font-family: Georgia, sans-serif;
 }
 
 
@@ -375,6 +378,10 @@ div.project figure img {
 div#accordion-2 section.my-information {
 	max-width: 550px;
 	margin: auto;
+	padding: 5px;
+}
+div#accordion-2 p {
+	font-family: Georgia, sans-serif;
 }
 
 
@@ -417,9 +424,6 @@ div#accordion-2 section.my-information {
 	section.my-information div#about div#about-title {
 		position: relative;
 		bottom: -40px;
-	}
-	div#accordion-4 section.my-information div#about-description {
-		max-width: 475px;
 	}
 }
 
