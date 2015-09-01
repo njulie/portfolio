@@ -335,7 +335,9 @@ section.my-information div#about img {
 	margin: auto;
 }
 div#accordion-4 section.my-information div#about-description {
-	padding: 30px 10px;
+	padding: 30px 0;
+	max-width: 310px;
+	margin: auto;
 }
 div#accordion-4 section.my-information {
 	max-width: 550px;
@@ -396,11 +398,13 @@ div#accordion-2 section.my-information {
 	}
 	div#accordion-4 section.my-information {
 		max-width: 475px;
-		margin: auto;
 	}
 	section.my-information div#about div#about-title {
 		position: relative;
 		bottom: -40px;
+	}
+	div#accordion-4 section.my-information div#about-description {
+		max-width: 475px;
 	}
 }
 
