@@ -383,6 +383,13 @@ div#accordion-2 section.my-information {
 	margin: auto;
 	padding: 10px;
 }
+img#cake {
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+div#accordion-2 figure {
+	padding: 15px 0;
+}
 
 
 
