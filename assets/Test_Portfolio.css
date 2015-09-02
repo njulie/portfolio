@@ -257,6 +257,12 @@ div.row {
 
 
 /* ----------- MY-INFORMATION, DANCE-SNIPPET ---------- */
+section.my-information p#dance-description {
+	max-width: 300px;
+	margin: auto;
+	line-height: 1.5em;
+	padding: 10px;
+}
 section.my-information div.dance-snippet {
 	padding: 10px 0;
 }
