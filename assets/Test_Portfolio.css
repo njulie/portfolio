@@ -270,10 +270,10 @@ section.my-information div.dance-snippet figure figcaption h5,
 section.my-information div.dance-snippet figure figcaption p,
 section.my-information div.dance-snippet figure figcaption h5 span.yellow-hover,
 section.my-information div.dance-snippet figure img {
-	-webkit-transition: all linear .2s;
-    -moz-transition: all linear .2s;
-    -o-transition: all linear .2s;
-    transition: all linear .2s;
+	-webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
  }
 section.my-information div.dance-snippet figure {
 	position: relative;
@@ -312,9 +312,10 @@ section.my-information div.dance-snippet figure a {
 	font-size: 1em;
 }
 section.my-information div.dance-snippet figure img {
-	border-radius: 2px;
+	border-radius: 1px;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
+	box-shadow: 1px 4px 5px 1px #939393;
 }
 section.my-information div.dance-snippet figure figcaption {
 	position: absolute;
@@ -343,16 +344,17 @@ section.my-information div.dance-snippet figure figcaption p {
 
 
 /* --------- About me description ---------- */
-section.my-information div#about {
+div#about {
 	padding-top: 20px;
 }
-section.my-information div#about img {
-	padding: 20px;
-	border: 1px solid #9a9a9a;
-	border-radius: 8px;
+div#about div#prof-pic-wrapper {
+	padding-top: 30px;
+}
+div#about div#prof-pic-wrapper img {
+	border-radius: 1px;
 	margin: auto;
 }
-div#accordion-4 section.my-information div#about-description {
+div#accordion-4 div#about-description {
 	padding: 30px 5px;
 	max-width: 475px;
 	margin: auto;
@@ -374,6 +376,10 @@ div.project {
 }
 div.project figure img {
 	border-radius: 1px;
+	box-shadow: 1px 4px 5px 1px #939393;
+}
+div.project figcaption {
+	padding-top: 5px;
 }
 
 
