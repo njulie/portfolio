@@ -261,7 +261,7 @@ section.my-information p#dance-description {
 	max-width: 300px;
 	margin: auto;
 	line-height: 1.5em;
-	padding: 10px;
+	padding: 10px 10px 20px 10px;
 }
 section.my-information div.dance-snippet {
 	padding: 10px 0;
@@ -401,6 +401,9 @@ div#accordion-2 section.my-information {
 	}
 	p#enter-text {
 		font-size: 3.5em;
+	}
+	section.my-information p#dance-description {
+		max-width: 575px;
 	}
 	section.my-information div.dance-snippet figure figcaption h5 {
 		line-height: 4em;
