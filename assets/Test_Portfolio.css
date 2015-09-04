@@ -192,8 +192,8 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
 }
 
 /* ---- Specific Section Titles ----- */
-#creative-link {color:#E49450;}
-#creative-link.active, #creative-link:hover {color: #f7f7f7; background-color: #F4A460;}
+#creative-link {color: #d48440;}
+#creative-link.active, #creative-link:hover {color: #f7f7f7; background-color: sandybrown;}
 
 #italy-link {color: #A5435C;}
 #italy-link.active, #italy-link:hover {color: #f7f7f7; background-color: #A5435C;}
