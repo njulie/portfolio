@@ -184,7 +184,7 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
     width: 100%;
     padding: 15px;
     display: inline-block;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 2px solid #e9e9e9;
     text-align: center;
     background-color: #f9f9f9;
     /* Type */
@@ -201,18 +201,17 @@ div.vertical-wrapper {display: table-cell; vertical-align: middle;}
 #portfolio-link {color: #009ACD;}
 #portfolio-link.active, #portfolio-link:hover {color: #f7f7f7; background-color: #009ACD;}
 
-#about-link {color: #28AE7B;}
-#about-link.active, #about-link:hover {color: #f7f7f7; background-color: #28AE7B;}
+#about-link {color: #38BE8B;}
+#about-link.active, #about-link:hover {color: #f7f7f7; background-color: #38BE8B;}
 
  
 .accordion-section-title.active, .accordion-section-title:hover {
     /* Type */
     text-decoration: none;
 }
- 
-.accordion-section:last-child .accordion-section-title {
-    border-bottom: none;
-}
+
+
+
  
 /*----- Section Content -----*/
 .accordion-section-content {
@@ -349,6 +348,9 @@ div#accordion-4 div#about-description {
 	padding: 30px 5px;
 	max-width: 475px;
 	margin: auto;
+	border-radius: 2px;
+	background-color: #38BE8B; /* green */
+	color: white;
 }
 div#accordion-4 section.my-information {
 	max-width: 550px;
