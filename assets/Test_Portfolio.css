@@ -345,9 +345,9 @@ div#about div#prof-pic-wrapper img {
 	margin: auto;
 }
 div#accordion-4 div#about-description {
-	padding: 30px 5px;
+	padding: 10px;
 	max-width: 475px;
-	margin: auto;
+	margin: 20px auto;
 	border-radius: 2px;
 	background-color: #38BE8B; /* green */
 	color: white;
