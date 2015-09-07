@@ -208,7 +208,22 @@
 
 		<script>
 
+			/* Upon load */
+			$(window).load(function() {
+				var envelope = $('#envelope');
+				envelope.animate({opacity: 1}, 1000);
+			});
+
 			$(document).ready(function() {
+				var enevelope = $('envelope');
+				$('#open').click(function() {
+					envelope.addClass('flipUp');
+					$('.accordion').fadeIn(1500);
+					setTimeout(function() {
+						envelope.fadeOut(300);
+						document.getElementsByTagName("body")[0].style.backgroundColor = "#f9f9f9";
+					}, 900);
+				});
 
 				/* For accordion */
 			    function close_accordion_section() {
@@ -234,21 +249,6 @@
 			        e.preventDefault();
 			    });
 				
-			});
-
-			/* Upon load */
-			$(window).load(function() {
-				var envelope = $('#envelope');
-				envelope.animate({opacity: 1}, 1000);
-
-				$('#open').click(function() {
-					envelope.addClass('flipUp');
-					$('.accordion').fadeIn(1500);
-					setTimeout(function() {
-						envelope.fadeOut(300);
-						document.getElementsByTagName("body")[0].style.backgroundColor = "#f9f9f9";
-					}, 900);
-				});
 			});
 
 		</script>
