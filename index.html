@@ -208,14 +208,10 @@
 
 		<script>
 
-			/* Upon load */
-			$(window).load(function() {
-				var envelope = $('#envelope');
-				envelope.animate({opacity: 1}, 1000);
-			});
-
 			$(document).ready(function() {
-				var enevelope = $('envelope');
+				var envelope = $('#envelope');
+				envelope.animate({opacity: 1}, 500);
+				
 				$('#open').click(function() {
 					envelope.addClass('flipUp');
 					$('.accordion').fadeIn(1500);
