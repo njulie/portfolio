@@ -66,6 +66,8 @@ a, a:hover, a:focus, a:active {
 	top: 45%;
 	display: block;
 	width: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
 }
 p#enter-text {
 	font-size: 2em;
@@ -73,8 +75,6 @@ p#enter-text {
 	display: inline-block;
 	padding: 10px 20px;
 	margin: 0;
-	opacity: 0;
-	filter: alpha(opacity=0);
 	color: #1a1a1a;
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
