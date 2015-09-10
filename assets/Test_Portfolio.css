@@ -10,8 +10,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, sans-serif;
-	letter-spacing: 0.5px;
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Helvetica, sans-serif;
+	letter-spacing: 0.4px;
 	font-weight: 300;
 	color: #373737;
 	line-height: 1.5em;
