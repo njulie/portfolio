@@ -349,10 +349,19 @@ div#about div#prof-pic-wrapper img {
 	border-radius: 1px;
 	margin: auto;
 }
+div#about-desc-wrapper {
+	padding-bottom: 20px;
+}
+div#about-desc-wrapper a {
+	color: #28AE7B;
+}
+div#about-desc-wrapper a:hover {
+	color: #474747;
+}
 div#accordion-4 div#about-description {
 	padding: 10px;
 	max-width: 475px;
-	margin: 20px auto;
+	margin: 20px auto 10px auto;
 	border-radius: 2px;
 	background-color: #38BE8B; /* green */
 	color: white;
