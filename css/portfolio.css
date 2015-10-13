@@ -1,3 +1,7 @@
+/* =========================
+		General Styling 
+	======================== */
+
 .content {
 	margin: 0 60px 60px 60px;
 }
@@ -6,6 +10,7 @@ body {
 	color: #3B4866; /* dark slate blue */
 	letter-spacing: 0.5px;
 	background-color: #fff;
+	line-height: 1.75em;
 }
 
 p {
@@ -14,28 +19,29 @@ p {
 
 header {
 	padding: 35px 0 10px 0;
-	text-align: right;
 	position: relative;
 }
 
-header h1 {
+h1 {
 	font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
 	font-weight: 700;
-	color: #f1f1f1; /* light gray */
 }
 
 header h1 span {
 	font-weight: 300;
 }
 
-#color {
+h3 {
+	color: rgba(59, 72, 102, 0.55);
+	margin: 30px 0 10px 0;
+}
+
+div#color {
 	position: absolute;
 	top: -10px;
 	right: 0px;
-}
-
-#description {
-	margin: 55px 0 20px 0;
+	opacity: 0.15;
+	filter:alpha(opacity=15);
 }
 
 a {
@@ -48,6 +54,22 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
+}
+
+
+
+
+
+/* ===============================
+	homepage: index.html styling! 
+	=============================== */
+
+header.port-title h1 {
+	color: #f1f1f1; /* light gray */
+}
+
+p#description {
+	margin: 55px 0 20px 0;
 }
 
 
@@ -119,3 +141,17 @@ a:hover, a:focus {
 .forty-width {
 	width: 40%;
 }
+
+
+
+/* ========================================
+	portfolio project page: project.html;
+	======================================= */
+
+
+
+
+
+
+
+
