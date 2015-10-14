@@ -131,9 +131,9 @@ p#description {
 
 
 
-/* ========================================
-	portfolio project page: project.html;
-	======================================= */
+/* ================
+	project pages
+	=============== */
 
 a.back-btn {
 	position: absolute;
@@ -152,6 +152,18 @@ a.back-btn:hover {
 	border-color: #fafafa;
 }
 
+p.caption {
+	font-size: 0.8em;
+	margin: 0;
+	line-height: 1em;
+}
+
+
+
+
+
+
+/* ========== MEDIA QUERIES ============= */
 
 /* ------ For x-small devices -------- */
 @media (max-width: 768px) {
