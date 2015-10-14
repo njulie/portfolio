@@ -78,7 +78,7 @@ p#description {
 
 /* -------- Grid Items --------- */
 .grid-sizer {
-	width: 33.33%;
+	width: 100%;
 }
 
 .grid img {
@@ -126,24 +126,7 @@ p#description {
 	filter: alpha(opacity=55);
 }
 
-.full-width {
-	width: 100%;
-}
-.half-width {
-	width: 50%;
-}
-.third-width {
-	width: 33.33%;
-}
-.fourth-width {
-	width: 25%;
-}
-.fifth-width {
-	width: 20%;
-}
-.forty-width {
-	width: 40%;
-}
+
 
 
 
@@ -174,11 +157,31 @@ p#description {
 }
 
 @media (min-width: 768px) {
-
+	.grid-sizer {
+		width: 10%;
+	}
+	.full-width {
+		width: 100%;
+	}
+	.half-width {
+		width: 50%;
+	}
+	.third-width {
+		width: 33.33%;
+	}
+	.fourth-width {
+		width: 25%;
+	}
+	.fifth-width {
+		width: 20%;
+	}
+	.forty-width {
+		width: 40%;
+	}
 }
 
 @media (min-width: 992px) {
-	
+
 }
 
 @media (min-width: 1200px) {
