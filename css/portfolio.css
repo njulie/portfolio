@@ -25,13 +25,15 @@ h1 {
 	font-weight: 700;
 }
 
-header h1 span, h3 span {
+header h1 span {
 	font-weight: 300;
 }
+
 
 h3 {
 	color: rgba(59, 72, 102, 0.55);
 	margin: 50px 0 10px 0;
+	font-size: 1.35em;
 }
 
 div#color {
@@ -152,8 +154,11 @@ p#description {
 .back-btn {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 50px;
 	color: #3B4866;
+	text-align: center;
+	margin: 30px 0;
+	padding: 30px 20px;
 }
 
 
