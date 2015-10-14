@@ -10,8 +10,8 @@ body {
 	color: #3B4866; /* dark slate blue */
 	letter-spacing: 0.5px;
 	background-color: #fff;
-	font-size: 1.65em;
-	line-height: 1.9em;
+	font-size: 1.4em;
+	line-height: 1.75em;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -23,6 +23,7 @@ header {
 h1 {
 	font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
 	font-weight: 700;
+	font-size: 1.8em;
 }
 
 header h1 span {
@@ -134,18 +135,19 @@ p#description {
 	portfolio project page: project.html;
 	======================================= */
 
-.back-btn {
+a.back-btn {
 	position: absolute;
 	top: 2px;
-	right: 50px;
+	right: 10px;
 	color: #3B4866;
 	text-align: center;
 	margin: 50px 0;
 	padding: 10px 20px;
 	border: 1px solid #3B4866;
+	z-index: 10;
 }
 
-.back-btn:hover {
+a.back-btn:hover {
 	background-color: #f7f7f7;
 	border-color: #fafafa;
 }
@@ -157,6 +159,13 @@ p#description {
 }
 
 @media (min-width: 768px) {
+	body {
+		font-size: 1.65em;
+		line-height: 1.9em;
+	}
+	h1 {
+		font-size: 2.2em;
+	}
 	.grid-sizer {
 		width: 10%;
 	}
@@ -181,7 +190,12 @@ p#description {
 }
 
 @media (min-width: 992px) {
-
+	h1 {
+		font-size: 2.6em;
+	}
+	a.back-btn {
+		right: 50px;
+	}
 }
 
 @media (min-width: 1200px) {
