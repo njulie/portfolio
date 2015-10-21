@@ -79,9 +79,6 @@ p#description {
 
 
 /* -------- Grid Items --------- */
-.grid-sizer {
-	width: 100%;
-}
 
 .grid img {
 	display: block;
@@ -124,8 +121,8 @@ p#description {
 }
 
 .grid-item a:hover {
-	opacity: 0.55;
-	filter: alpha(opacity=55);
+	opacity: 0.4;
+	filter: alpha(opacity=40);
 }
 
 
@@ -188,8 +185,8 @@ p.caption {
 	.half-width {
 		width: 50%;
 	}
-	.third-width {
-		width: 33.33%;
+	.thirty-width {
+		width: 30%;
 	}
 	.fourth-width {
 		width: 25%;
