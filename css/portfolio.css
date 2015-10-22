@@ -34,7 +34,7 @@ header h1 span {
 
 h3 {
 	color: rgba(59, 72, 102, 0.55);
-	margin: 50px 0 10px 0;
+	margin: 45px 0 15px 0;
 	font-size: 1.35em;
 }
 
@@ -163,15 +163,10 @@ p.caption {
 
 /* ========== MEDIA QUERIES ============= */
 
-/* ------ For x-small devices -------- */
-@media (max-width: 768px) {
-
-}
-
 @media (min-width: 768px) {
 	body {
 		font-size: 1.65em;
-		line-height: 1.9em;
+		line-height: 1.75em;
 	}
 	h1 {
 		font-size: 2.2em;
