@@ -36,6 +36,7 @@ h3 {
 	color: rgba(59, 72, 102, 0.55);
 	margin: 45px 0 15px 0;
 	font-size: 1.35em;
+	font-weight: 700;
 }
 
 div#color {
@@ -59,6 +60,10 @@ a {
 
 a:hover, a:focus {
 	text-decoration: none;
+}
+
+img {
+	border-radius: 2px;
 }
 
 
@@ -165,8 +170,8 @@ p.caption {
 
 @media (min-width: 768px) {
 	body {
-		font-size: 1.65em;
-		line-height: 1.75em;
+		font-size: 1.6em;
+		line-height: 1.8em;
 	}
 	h1 {
 		font-size: 2.2em;
