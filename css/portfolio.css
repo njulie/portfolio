@@ -34,7 +34,7 @@ header h1 span {
 
 h3 {
 	color: rgba(59, 72, 102, 0.55);
-	margin: 45px 0 15px 0;
+	margin-bottom: 17px;
 	font-size: 1.35em;
 	font-weight: 700;
 }
@@ -64,6 +64,20 @@ a:hover, a:focus {
 
 img {
 	border-radius: 2px;
+}
+
+section {
+	padding: 15px 0;
+}
+
+
+
+
+/* GENERAL STYLING FOR ALL PAGES */
+div#project img {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
 }
 
 
