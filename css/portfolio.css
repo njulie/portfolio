@@ -2,8 +2,13 @@
 		General Styling 
 	======================== */
 
-.content {
+#masonry-projects {
 	margin-bottom: 60px;
+}
+
+#content {
+    max-width: 700px;
+    margin: auto;
 }
 
 body {
