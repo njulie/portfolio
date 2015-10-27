@@ -60,7 +60,8 @@ div#color img {
 }
 
 a {
-	color: #2B547E;
+	color: #68228B;
+	font-weight: 700;
 	-webkit-transition: all ease-in-out 0.3s;
 	-moz-transition: all ease-in-out 0.3s;
 	-o-transition: all ease-in-out 0.3s;
@@ -198,7 +199,7 @@ p.caption {
 
 @media (min-width: 768px) {
 	body {
-		font-size: 1.6em;
+		font-size: 1.5em;
 		line-height: 1.8em;
 	}
 	h1 {
