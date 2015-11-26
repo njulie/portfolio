@@ -36,6 +36,11 @@ h1 {
 	padding-right: 10px;
 }
 
+h2 {
+	font-size: 1.5em;
+	color: rgba(59, 72, 102, 0.55);
+}
+
 header h1 span {
 	font-weight: 300;
 	font-size: 0.5em;
@@ -197,8 +202,8 @@ p.caption {
 
 @media (min-width: 768px) {
 	body {
-		font-size: 1.5em;
-		line-height: 1.8em;
+		font-size: 1.4em;
+		line-height: 1.75em;
 	}
 	h1 {
 		font-size: 2.2em;
