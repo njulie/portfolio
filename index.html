@@ -27,10 +27,21 @@
 
 	    <style>
 
+	    img#brush {
+			position: absolute;
+			top: -10px;
+			right: 0px;
+			opacity: 0.15;
+			filter:alpha(opacity=15);
+		}
     	header.port-title {	text-align: right; }
-    	div#color img {
+    	img#brush {
 			opacity: 1;
 			filter:alpha(opacity=100);
+		}
+
+		header h1 span {
+			font-weight: 300;
 		}
 
 	    </style>
@@ -38,19 +49,18 @@
 	</head>
   	<body>
   		<div class="container">
-  			<div id="color">
-  				<img src="images/purple.png"/>
-  			</div>
-  			<div id="masonry-projects">
-				<header class="port-title">
-					<h1>Julie Ni's <span>Portfolio</span></h1>
-					<p id="description">Stanford undergraduate studying Human Computer Interaction
-						<br>
-						<a href="https://www.linkedin.com/in/njulie" target="_blank">LinkedIn</a> | 
-						<a href="assets/resume.pdf">Resume</a>
-					</p>
-				</header>
+			<img id="brush" src="images/purple.png"/>
+  			
+  			<header class="port-title">
+				<h1>Julie Ni's <span>Portfolio</span></h1>
+				<p id="description">Stanford undergraduate studying Human Computer Interaction
+					<br>
+					<a href="https://www.linkedin.com/in/njulie" target="_blank">LinkedIn</a> | 
+					<a href="assets/resume.pdf">Resume</a>
+				</p>
+			</header>
 
+  			<div id="masonry-projects">
 				<div class="grid">
 					<div class="grid-sizer"></div>
 					

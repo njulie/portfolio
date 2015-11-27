@@ -9,17 +9,14 @@
 #content {
     max-width: 800px;
     margin: auto;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #fcf9fc;
+    padding: 40px 20px;
 }
 
 body {
 	color: #3B4866; /* dark slate blue */
 	letter-spacing: 0.5px;
 	background-color: #fff;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	line-height: 1.8em;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -32,36 +29,20 @@ header {
 h1 {
 	font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 2.3em;
 	padding-right: 10px;
 }
 
 h2 {
 	font-size: 1.4em;
-	color: rgba(59, 72, 102, 0.55);
 }
-
-header h1 span {
-	font-weight: 300;
-}
-
 
 h3 {
 	color: rgba(59, 72, 102, 0.55);
 	margin-bottom: 17px;
-	font-size: 1.35em;
 	font-weight: 700;
-}
-
-div#color {
-	position: absolute;
-	top: -10px;
-	right: 0px;
-}
-
-div#color img {
-	opacity: 0.15;
-	filter:alpha(opacity=15);
+	font-family: 'Josefin Sans', 'Gill Sans', sans-serif;
+	font-size: 1.5em;
 }
 
 a {
@@ -79,11 +60,6 @@ a:hover, a:focus {
 
 section {
 	padding: 40px 0;
-}
-
-hr {
-    margin: 35px 0;
-    border-color: #c1aee3;
 }
 
 
@@ -169,22 +145,6 @@ p#description {
 	project pages
 	=============== */
 
-a.back-btn {
-	position: absolute;
-	top: 6px;
-	right: 10px;
-	color: #3B4866;
-	text-align: center;
-	margin-top: 50px;
-	padding: 5px 13px;
-	border: 1px solid #3B4866;
-	z-index: 10;
-}
-
-a.back-btn:hover {
-	background-color: #f7f7f7;
-	border-color: #fafafa;
-}
 
 p.caption {
 	font-size: 0.8em;
@@ -200,17 +160,9 @@ p.caption {
 /* ========== MEDIA QUERIES ============= */
 
 @media (min-width: 768px) {
-	body {
-		font-size: 1.4em;
-		line-height: 1.75em;
-	}
-	h1 {
-		font-size: 2.2em;
-	}
-
 	#content {
-		padding-left: 50px;
-    	padding-right: 50px;
+		padding-left: 30px;
+    	padding-right: 30px;
 	}
 
 	.grid-sizer {
@@ -237,20 +189,12 @@ p.caption {
 }
 
 @media (min-width: 992px) {
-	h1 {
-		font-size: 2.6em;
-	}
-	a.back-btn {
-		top: 2px;
-		padding: 10px 20px;
-		right: 50px;
+	body {
+		font-size: 1.7em;
+		line-height: 1.75em;
 	}
 
-}
-
-@media (min-width: 1200px) {
 
 }
-
 
 
