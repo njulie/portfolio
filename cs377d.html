@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Julie's Portfolio Project">
+		<meta name="author" content="Julie Ni">
+
+		<title>J. Ni | CS377D: designing calm project</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,700|Open+Sans:400' rel='stylesheet' type='text/css'>
+		
+		<!-- Bootstrap -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- My Portfolio Style -->
+		<link href="css/portfolio.css" rel="stylesheet">
+		<!-- inner page style -->
+        <link href="css/innerPageStyle.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style>
+
+		</style>
+		
+	</head>
+	<body>
+		<header>
+			<a class="back-btn" href="index.html">&lt;</a>
+			<h1>Redesign the Commute Experience</h1>
+			<h2>User Experience Design</h2>
+		</header>
+
+		<div class="container">
+			<div id="content">
+				<div id="project">
+					<p id="task">In 3 weeks, redesign the commute experience for medium-distance commuters assuming autonomous cars are the common method of transportation. This was part of CS377D: Designing Calm under the d.school, Stanford's Institute of Design, and we partnered with Renault Innovation Silicon Valley, the Renault-Nissan Alliance Research Office.</p>
+
+					<section>
+						<h3>Collecting Data</h3>
+						<p>Two other Stanford students and I set out to tackle this broad design challenge by scoping for information and interviewing commuters. To see what challenges commuters in general faced and amass as much user data as possible, we sent out a survey and publicized it on social media platforms.</p>
+						<p>In it, we asked participants to imagine a world without commuting, leaving the involvement of autonomous cars a secret to avoid biasing their answers. Then, we inquired what activities they would want to do if given more time in the morning to see what mattered to people in the time between waking up and driving to work. We also asked participants to provide a description of their commute experiences, both positive and negative, to clue us in on which experiences to enhance and which ones to rectify.
+					</section>
+
+					<section>
+						<h3>Research Findings</h3>
+						<p>Over 200 commuters participated in our survey over the course of 1 week, and based on their responses, we categorized the top three stressors or challenges commuters faced when driving. 51% of participants mentioned negativity towards bad drivers, 43% expressed stress about running late for work, and 39% mentioned struggles with traffic.</p>
+						<img src="projects/dcalm/stressors.jpg" alt="Top 3 stressors"/>
+						<br><br>
+						<p>Our second insight was that given extra time in the morning, 75% of commuters would sleep in, with other response such as "watch the news," "eat breakfast," or "exercise."</p>
+						<img src="projects/dcalm/sleep.jpg" alt="Sleep image"/>
+						<br><br>
+						<p>Our final step in conducting preliminary research was to interview real commuters about their transportation experience. It was time to get our hands dirty in the actual field, the field of the people we were trying to design for.</p>
+						<img src="projects/dcalm/commuterquotes.jpg" alt="Commuter Quotes"/>
+					</section>
+
+					<section>
+						<h3>Reframing the Question</h3>
+						<p>All of these findings spoke to one main topic, that the stress comes mainly from distractions on the road. Combining this insight with the fact that many people expressed interest in sleeping, we reframed our design task as such:</p>
+						<h2 style="line-height: 1.75em; color: #473C8B">"How might we remove commuters from environmental stressors on the road that makes them feel relaxed on their way to work?"</h2>
+						<p>Now that we had a narrow angle to proceed, it was time to prototype an experience.</p>
+					</section>
+
+					<section>
+						<h3>Prototype 1: The Infinity Room</h3>
+						<p>With prototype 1, we aimed to isolate the passenger from the outside environment and transport them into a different space. To achieve this, we chose to cover up the windows.</p>
+						<p>For Test A, we covered the windows with scenic nature images to aid mental relocation to another place, invited passersby to step into the car, played them two soundtracks (30 seconds highway traffic, 30 seconds tropical rainforest noise), and asked them to imagine driving from one place to another.</p>
+						<p>For Test B, we covered the windows with reflective material to create the sense of space (building off the idea of the infinity room) and repeated the process for Test A.</p>
+						<img src="projects/dcalm/infinityroom.jpg" alt="Prototype 1"/>
+						<br><br>
+						<p>Our biggest finding from this round of user testing was that covering the windows made users feel trapped and claustrophobic, which brings us to prototype 2.</p>
+					</section>
+
+					<section>
+						<h3>Prototype 2: The DozePod</h3>
+						<p>Focusing less on visual manipulation and more on the relaxing experience, we carried out two more trials.</p>
+						<p>In the first, we drove users around in the passenger seat for 5 minutes, with no instruction, allowing the Spire, a breathing rate tracker, to collect the user's initial breathing rate.</p>
+						<p>In the second, we covered their eyes with a blindfold, inserted earbuds connected to calming ocean sounds, and reclined their seat, where the Spire continued to record their respiratory rate.</p>
+						<img src="projects/dcalm/dozepod.jpg" alt="Prototype 2"/>
+						<br><br>
+						<p>Our most significant finding from this round was that our tactics made users groggy, sleepy, and too relaxed if they were commuting to work in the morning, preparing to start their day. A round of revision was necessary!</p>
+					</section>
+
+					<section>
+						<h3>Prototype 3: VRoom</h3>
+						<p>Introducing Google Cardboard into the scene! We need something to wake commuters up so that they'd be energized and ready to approach their day of work. This time, we drove users around in the passenger seat for 10 minutes.</p>
+						<p>For the first 5 minutes, we blindfolded our users to create a dark environment, gave them calm nature sounds, and reclined their seats just like we did in prototype 2.</p>
+						<p>However, for the second 5 minutes, we removed the blindfold and switched it in for a Google Cardboard-like Virtual Reality case. This experience was intended to stimulate the senses, and it was a substitute for the idea that the VR would be projected all along the insides of the car. The VR was simply a prototype for this futuristic idea.</p>
+						<img src="projects/dcalm/vroom.jpg" alt="Prototype 3"/>
+					</section>
+
+					<section>
+						<h3>Quantitative Data and Measures</h3>
+						<p>Polling each user to rate their alertness levels, we ended up with a rise in alertness levels after watching the VR sequence. This meant that our VR trial was successful in our achieving our goal.</p>
+						<img src="projects/dcalm/alertlevel.jpg" alt="Alertness Levels"/>
+					</section>
+
+					<section>
+						<h3>Next Steps</h3>
+						<p>If we were to continue seeing this project through, past the due date and beyond the limitation of class, we would focus on capturing more accurate Spire data (the Spire was finicky and missed many breathing rates), continuing to iterate with different activities, and get our hands on an actual autonomous car, if that was possible.</p>
+						<img src="projects/dcalm/vision.jpg" alt="Our Vision"/>
+					</section>
+
+				</div>
+
+			</div> <!-- /.content -->
+
+		</div> <!-- /.container -->
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-65420707-7', 'auto');
+		  ga('send', 'pageview');
+
+</script>
+
+	</body>
+</html>
