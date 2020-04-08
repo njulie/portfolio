@@ -1,0 +1,149 @@
+/*
+ *
+ * General Styling
+ *
+ */
+h1 {
+	font-family: 'Bree Serif', serif;
+}
+	
+h2, h3, h4, h5, h6, body {
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 1em;
+	color: #574E4E;
+}
+
+hr {
+	width: 10px;
+	border-color: #A29C9C;
+}
+
+/*
+ * General Link Styling
+ */
+a {
+	color: #F54272;
+}
+a:hover, a:active {
+	color: #B53154;
+}
+a:visited {
+	color: #8F2742;
+}
+
+
+/*
+ *
+ * Navigation Styling
+ *
+ */
+div#portfolio-navigation {
+	/* Look up how to do a gradient */
+	padding: 20px 20px;
+	/*background-color: #444;*/
+	background-image: linear-gradient(to bottom right, #691C31, #B53154);
+	position: 0;
+}
+
+div#portfolio-navigation nav a {
+	color: white;
+}
+
+
+/*
+ * Styling for the introduction/bio section of portfolio
+ */
+section#designer-bio {
+	padding: 50px 40px;
+	text-align: center;
+}
+
+section#design-projects {
+	margin: 0 10px;
+	text-align: center;
+}
+
+div.project-block {
+	display: block;
+	padding: 45px 0;
+	border: solid;
+	border-width: 1px;
+	border-color: #DEDDDD; /* light grey */
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+div.project-block div.project-title {
+	vertical-align: middle;
+
+}
+
+footer {
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	background-color: #234567;
+}
+
+
+
+
+
+/*
+ *
+ * Media Queries for Responsiveness
+ *
+ */
+
+@media (min-width: 600px) and (max-width: 800px) {
+	div#portfolio-content {
+		margin: 0 20px;
+	}
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+	div#portfolio-content {
+		margin: 0 75px;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	section#designer-bio p {
+		font-size: 1.15em;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+	div#portfolio-content {
+		margin: 0 150px;
+	}
+	section#designer-bio {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	section#designer-bio p {
+		font-size: 1.25em;
+	}
+}
+
+@media (min-width: 1501px) {
+	div#portfolio-content {
+		margin: 0 300px;
+	}
+	h1 {
+		font-size: 3.5em;
+	}
+	section#designer-bio p {
+		font-size: 1.5em;
+	}
+}
