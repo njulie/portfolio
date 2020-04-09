@@ -26,6 +26,10 @@ hr {
 	border-color: #A29C9C;
 }
 
+body {
+	padding-top: 55px;
+}
+
 /*
  * General Link Styling
  */
