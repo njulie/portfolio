@@ -5,6 +5,7 @@
  */
 h1 {
 	font-family: 'Bree Serif', serif;
+	font-size: 3.5em;
 }
 	
 h2, h3, h4, h5, h6, body {
@@ -12,7 +13,7 @@ h2, h3, h4, h5, h6, body {
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin-top: 10px;
 }
 
@@ -37,6 +38,11 @@ a:hover, a:active {
 }
 a:visited {
 	color: #7A0024;
+}
+
+hr {
+	border-color: #2a2a2a;
+	width: 10px;
 }
 
 
@@ -65,6 +71,10 @@ div#portfolio-navigation {
 section#designer-bio {
 	padding: 50px 40px;
 	text-align: center;
+}
+
+section#designer-bio p {
+	font-size: 1.25em;
 }
 
 section#design-projects {
