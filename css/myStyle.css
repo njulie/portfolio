@@ -3,18 +3,23 @@
  * General Styling
  *
  */
-h1 {
+h1, h3 {
 	font-family: 'Bree Serif', serif;
-	font-size: 3.5em;
 }
 	
-h2, h3, h4, h5, h6, body {
+h2, h4, h5, h6, body {
 	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 0.75px;
 }
 
 h3 {
 	font-size: 1.5em;
 	margin-top: 10px;
+	letter-spacing: 1px;
 }
 
 h4, h5 {
@@ -65,6 +70,15 @@ div#portfolio-navigation {
  	z-index: 999;
 }
 
+
+
+div#portfolio-content, div#resume-content {
+	margin: 0 40px;
+}
+
+div#resume-content {
+	text-align: left;
+}
 
 /*
  * Styling for the introduction/bio section of portfolio
@@ -130,7 +144,7 @@ footer {
  */
 
 @media (min-width: 600px) and (max-width: 800px) {
-	div#portfolio-content {
+	div#portfolio-content, div#resume-content {
 		margin: 0 40px;
 	}
 	div.project-block {
@@ -140,7 +154,7 @@ footer {
 }
 
 @media (min-width: 801px) and (max-width: 1000px) {
-	div#portfolio-content {
+	div#portfolio-content, div#resume-content {
 		margin: 0 80px;
 	}
 	div.project-block {
@@ -150,7 +164,7 @@ footer {
 }
 
 @media (min-width: 1001px) and (max-width: 1500px) {
-	div#portfolio-content {
+	div#portfolio-content, div#resume-content {
 		margin: 0 200px;
 	}
 	section#designer-bio {
@@ -164,7 +178,7 @@ footer {
 }
 
 @media (min-width: 1501px) {
-	div#portfolio-content {
+	div#portfolio-content, div#resume-content {
 		margin: 0 300px;
 	}
 	h1 {
