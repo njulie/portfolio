@@ -39,6 +39,16 @@ a.back-btn:hover {
 	color: #3B4866;
 }
 
+a.back-link {
+
+}
+
+a.back-link:hover {
+	background-color: #f1f1f1;
+	border-color: #f1f1f1;
+	color: #3B4866;
+}
+
 div#project img {
 	width: 100%;
 	max-width: 100%;
