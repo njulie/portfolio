@@ -17,7 +17,7 @@ h3 {
 	margin-top: 10px;
 }
 
-h4 {
+h4, h5 {
 	font-size: 1em;
 	color: #574E4E;
 }
@@ -34,14 +34,15 @@ a {
 	color: #9A0044;
 }
 a:hover, a:active {
-	color: #7A0024;
+	color: #d6538b;
+	text-decoration: none;
 }
 a:visited {
 	color: #7A0024;
 }
 
 hr {
-	border-color: #2a2a2a;
+	border-color: #574E4E;
 	width: 10px;
 }
 
@@ -91,6 +92,12 @@ div.project-block {
 	border-radius: 5px;
 	margin-bottom: 10px;
 }
+div.project-block:hover {
+	border-color: #e2bfce;
+	border-width: 2px;
+	transition: all 0.5s linear 0;
+
+}
 div.project-block div.project-title {
 	vertical-align: middle;
 }
@@ -127,6 +134,9 @@ footer {
 	div#portfolio-content {
 		margin: 0 20px;
 	}
+	div.project-block {
+		margin-bottom: 20px;
+	}
 }
 
 @media (min-width: 801px) and (max-width: 1000px) {
@@ -138,6 +148,9 @@ footer {
 	}
 	section#designer-bio p {
 		font-size: 1.15em;
+	}
+	div.project-block {
+		margin-bottom: 30px;
 	}
 }
 
@@ -154,6 +167,9 @@ footer {
 	}
 	section#designer-bio p {
 		font-size: 1.25em;
+	}
+	div.project-block {
+		margin-bottom: 40px;
 	}
 }
 
