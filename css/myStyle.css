@@ -16,6 +16,10 @@ h1 {
 	letter-spacing: 0.75px;
 }
 
+h2 {
+	margin-top: 10px;
+}
+
 h3 {
 	font-size: 1.5em;
 	margin-top: 10px;
@@ -46,9 +50,9 @@ a:visited {
 	color: #7A0024;
 }
 
-hr {
-	border-color: #574E4E;
+hr.title-separator {
 	width: 10px;
+	border-color: #ababab;
 }
 
 
