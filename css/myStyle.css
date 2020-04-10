@@ -53,7 +53,7 @@ hr {
  *
  */
 div#portfolio-navigation {
-	padding: 20px 20px;
+	padding: 20px 40px;
 	box-shadow: 0 1px 1px 0 rgb(230, 230, 230);
 	background-color: #f8f8f8;
 	
@@ -70,7 +70,7 @@ div#portfolio-navigation {
  * Styling for the introduction/bio section of portfolio
  */
 section#designer-bio {
-	padding: 50px 40px;
+	padding: 50px 50px;
 	text-align: center;
 }
 
@@ -79,22 +79,21 @@ section#designer-bio p {
 }
 
 section#design-projects {
-	margin: 0 10px;
+	margin: 0 30px;
 	text-align: center;
 }
 
 div.project-block {
 	display: block;
-	padding: 45px 0;
+	padding: 65px 0;
 	border: solid;
 	border-width: 1px;
 	border-color: #DEDDDD; /* light grey */
 	border-radius: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 div.project-block:hover {
 	border-color: #e2bfce;
-	border-width: 2px;
 	transition: all 0.5s linear 0;
 
 }
