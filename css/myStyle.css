@@ -21,26 +21,22 @@ h4 {
 	color: #574E4E;
 }
 
-hr {
-	width: 10px;
-	border-color: #A29C9C;
-}
-
 body {
 	padding-top: 55px;
+	color: #2a2a2a;
 }
 
 /*
  * General Link Styling
  */
 a {
-	color: #F54272;
+	color: #9A0044;
 }
 a:hover, a:active {
-	color: #B53154;
+	color: #7A0024;
 }
 a:visited {
-	color: #8F2742;
+	color: #7A0024;
 }
 
 
@@ -50,10 +46,9 @@ a:visited {
  *
  */
 div#portfolio-navigation {
-	/* Look up how to do a gradient */
 	padding: 20px 20px;
-	background-image: linear-gradient(to right, #F54272, #691C31);
-	box-shadow: 0 1px 2px 0 rgba(105, 28, 49, 0.75);
+	box-shadow: 0 1px 1px 0 rgb(230, 230, 230);
+	background-color: #f8f8f8;
 	
 	/* To fix the nav bar to the top*/
 	position: fixed;
@@ -61,10 +56,6 @@ div#portfolio-navigation {
 	right: 0;
  	left: 0;
  	z-index: 999;
-}
-
-div#portfolio-navigation nav a {
-	color: white;
 }
 
 
@@ -92,16 +83,23 @@ div.project-block {
 }
 div.project-block div.project-title {
 	vertical-align: middle;
-
+}
+div.project-block div.project-title h3 a {
+	color: #9A0044;
+}
+div.project-block div.project-title h3 a:hover,
+div.project-block div.project-title h3 a:active {
+	color: #7A0024;
+}
+div.project-block div.project-title h3 a:visited {
+	color: #7A0024;
 }
 
 footer {
 	margin-top: 50px;
 	padding: 20px;
 	text-align: center;
-	/*background-image: linear-gradient(to left, #F54272, #691C31);
-	color: #ffffff;*/
-	box-shadow: 0 -1px 1px 0 rgba(200, 200, 200, 0.35);
+	box-shadow: 0 -1px 1px 0 rgba(240, 240, 240, 0.95);
 	background-color: #f8f8f8;
 }
 
