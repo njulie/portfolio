@@ -131,44 +131,35 @@ footer {
 
 @media (min-width: 600px) and (max-width: 800px) {
 	div#portfolio-content {
-		margin: 0 20px;
+		margin: 0 40px;
 	}
 	div.project-block {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
+		padding: 85px 0;
 	}
 }
 
 @media (min-width: 801px) and (max-width: 1000px) {
 	div#portfolio-content {
-		margin: 0 75px;
-	}
-	h1 {
-		font-size: 2.5em;
-	}
-	section#designer-bio p {
-		font-size: 1.15em;
+		margin: 0 80px;
 	}
 	div.project-block {
-		margin-bottom: 30px;
+		margin-bottom: 40px;
+		padding: 85px 0;
 	}
 }
 
 @media (min-width: 1001px) and (max-width: 1500px) {
 	div#portfolio-content {
-		margin: 0 150px;
+		margin: 0 200px;
 	}
 	section#designer-bio {
-		padding-left: 70px;
-		padding-right: 70px;
+		padding-left: 75px;
+		padding-right: 75px;
 	}
-	h1 {
-		font-size: 3em;
-	}
+	
 	section#designer-bio p {
-		font-size: 1.25em;
-	}
-	div.project-block {
-		margin-bottom: 40px;
+		font-size: 1.5em;
 	}
 }
 
