@@ -113,14 +113,15 @@ div.project-block {
 	display: block;
 	padding: 65px 0;
 	border: solid;
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #DEDDDD; /* light grey */
-	border-radius: 5px;
+	border-radius: 15px;
 	margin-bottom: 30px;
 }
 div.project-block:hover {
-	border-color: #e2bfce;
+	border-color: #9A0044;
 	transition: all 0.5s linear 0;
+	background-color: #ffd8ea;
 
 }
 div.project-block div.project-title {
