@@ -40,19 +40,31 @@ body {
  * General Link Styling
  */
 a {
-	color: #9A0044;
-}
-a:hover, a:active {
 	color: #d6538b;
+}
+
+a:visited {
+	color: #d6538b;
+}
+
+a:hover, a:active {
+	color: #9A0044;
 	text-decoration: none;
 }
-a:visited {
+
+a:focus {
 	color: #7A0024;
+	text-decoration: none;
 }
 
 hr.title-separator {
 	width: 10px;
 	border-color: #ababab;
+}
+
+img.icon {
+	width: 15px;
+	color: pink;
 }
 
 
@@ -117,16 +129,6 @@ div.project-block:hover {
 }
 div.project-block div.project-title {
 	vertical-align: middle;
-}
-div.project-block div.project-title h3 a {
-	color: #9A0044;
-}
-div.project-block div.project-title h3 a:hover,
-div.project-block div.project-title h3 a:active {
-	color: #7A0024;
-}
-div.project-block div.project-title h3 a:visited {
-	color: #7A0024;
 }
 
 footer {
