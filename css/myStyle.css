@@ -48,7 +48,7 @@ a:visited {
 }
 
 a:hover, a:active {
-	color: #9A0044;
+	color: #b6336b;
 	text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ section#design-projects {
 
 div.project-block {
 	display: block;
-	padding: 65px 0;
+	padding: 55px 10px;
 	border: solid;
 	border-width: 2px;
 	border-color: #DEDDDD; /* light grey */
@@ -119,9 +119,8 @@ div.project-block {
 	margin-bottom: 30px;
 }
 div.project-block:hover {
-	border-color: #9A0044;
-	transition: all 0.5s linear 0;
-	background-color: #ffd8ea;
+	border-color: #d6538b;
+	background-color: #fff7f7;
 
 }
 div.project-block div.project-title {
@@ -152,7 +151,7 @@ footer {
 	}
 	div.project-block {
 		margin-bottom: 40px;
-		padding: 85px 0;
+		padding: 65px 0;
 	}
 }
 
@@ -161,8 +160,7 @@ footer {
 		margin: 0 80px;
 	}
 	div.project-block {
-		margin-bottom: 40px;
-		padding: 85px 0;
+		padding: 75px 0;
 	}
 }
 
@@ -177,6 +175,9 @@ footer {
 	
 	section#designer-bio p {
 		font-size: 1.5em;
+	}
+	section#design-projects {
+		margin: 0 75px;
 	}
 }
 
