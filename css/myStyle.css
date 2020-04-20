@@ -120,7 +120,7 @@ div.project-block {
 }
 div.project-block:hover {
 	border-color: #d6538b;
-	background-color: #fff7f7;
+	/*background-color: #fff7f7;*/
 
 }
 div.project-block div.project-title {
