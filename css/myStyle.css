@@ -6,7 +6,7 @@
 h1, h3 {
 	font-family: 'Bree Serif', serif;
 }
-	
+
 h2, h4, h5, h6, body {
 	font-family: 'Lato', sans-serif;
 }
@@ -32,7 +32,8 @@ h4, h5 {
 }
 
 body {
-	padding-top: 55px;
+	width: 90%;
+    margin: 3em auto 2em auto;
 	color: #2a2a2a;
 }
 
@@ -59,22 +60,17 @@ a:focus {
 	text-decoration: none;
 }
 
-hr.title-separator {
-	width: 10px;
-	border-color: #ababab;
-}
-
 img.icon {
 	width: 15px;
 	color: pink;
 }
 
+hr {
+	width: 10px;
+	border-color: #ccc;
+}
 
-/*
- *
- * Navigation Styling
- *
- */
+
 nav {
 	padding: 20px 30px;
 	box-shadow: 0 1px 1px 0 rgb(230, 230, 230);
@@ -86,44 +82,43 @@ nav {
 	right: 0;
  	left: 0;
  	z-index: 999;
+ 	text-align: center;
 }
 
-nav ul {
-	margin: 0;
-}
-
-nav ul li {
-	list-style-type: none;
-	float: left;
+nav a {
 	margin-right: 20px;
 }
 
-
-
-
-
-/* Resume content styling*/
-
-
-div#resume-content {
-	text-align: left;
-	margin: 0 30px;
+section {
+	padding: 10px 10px;
 }
 
-/*
- * Styling for the introduction/bio section of portfolio
- */
-section#designer-bio {
-	padding: 50px 40px;
+footer {
 	text-align: center;
 }
 
-section#designer-bio p {
+
+
+
+
+/*
+ *
+ * Page Specific Styling
+ *
+ */
+
+/* Work Page */
+#designer-bio {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#designer-bio p {
 	font-size: 1.25em;
 }
 
-section#design-projects {
-	margin: 0 30px;
+#design-projects {
 	text-align: center;
 }
 
@@ -133,7 +128,7 @@ section#design-projects a {
 
 div.project-block {
 	display: block;
-	padding: 55px 10px;
+	padding: 55px 40px;
 	border: solid;
 	border-width: 15px;
 	border-color: #53d69e; /* green */
@@ -152,15 +147,12 @@ div.project-block div.project-title {
 	vertical-align: middle;
 }
 
-footer {
-	margin-top: 50px;
-	padding: 20px;
-	text-align: center;
-	box-shadow: 0 -1px 1px 0 rgba(240, 240, 240, 0.95);
-	background-color: #f8f8f8;
+
+
+/* Resume Page */
+div#resume-content {
+	text-align: left;
 }
-
-
 
 
 
@@ -170,50 +162,33 @@ footer {
  *
  */
 
-@media (min-width: 600px) and (max-width: 800px) {
-	div#portfolio-content, div#resume-content {
-		margin: 0 40px;
+@media screen and (min-width: 600px) {
+	body {
+		width: 70%;
+	}
+	.project-block {
+		padding: 75px 10px;
+	}
+
+}
+
+@media screen and (min-width: 900px) {
+	body {
+		width: 50%;
 	}
 	div.project-block {
-		margin-bottom: 40px;
-		padding: 65px 0;
+		padding: 75px 30px;
 	}
 }
 
-@media (min-width: 801px) and (max-width: 1000px) {
-	div#portfolio-content, div#resume-content {
-		margin: 0 80px;
-	}
-	div.project-block {
-		padding: 75px 0;
-	}
-}
-
-@media (min-width: 1001px) and (max-width: 1500px) {
-	div#portfolio-content, div#resume-content {
-		margin: 0 200px;
-	}
-	section#designer-bio {
-		padding-left: 75px;
-		padding-right: 75px;
-	}
-	
-	section#designer-bio p {
-		font-size: 1.5em;
-	}
-	section#design-projects {
-		margin: 0 75px;
-	}
-}
-
-@media (min-width: 1501px) {
-	div#portfolio-content, div#resume-content {
-		margin: 0 300px;
-	}
+@media screen and (min-width: 1300px) {
 	h1 {
 		font-size: 3.5em;
 	}
 	section#designer-bio p {
 		font-size: 1.5em;
+	}
+	div.project-block {
+		padding: 125px 30px;
 	}
 }
