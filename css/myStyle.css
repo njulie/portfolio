@@ -40,12 +40,12 @@ body {
  * General Link Styling
  */
 a {
-	color: #d6538b;
+	color: #d8518b;
 }
 
 a:visited {
 	/*color: #8A1034; */
-	color: #d6538b;
+	color: #d8518b;
 }
 
 a:hover, a:active {
@@ -112,7 +112,7 @@ section#design-projects {
 }
 
 section#design-projects a {
-	color: #d6538b;
+	color: #d8518b;
 }
 
 div.project-block {
@@ -126,7 +126,7 @@ div.project-block {
 	background-color: #ffffff;
 }
 div.project-block:hover {
-	border-color: #d6538b;
+	border-color: #d8518b;
 	/*background-color: #fff7f7;*/
 	background-color: #f9e4ed;
 
