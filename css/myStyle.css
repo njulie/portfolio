@@ -44,16 +44,18 @@ a {
 }
 
 a:visited {
+	/*color: #8A1034; */
 	color: #d6538b;
 }
 
 a:hover, a:active {
-	color: #b6336b;
+	/*color: #b6336b;*/
+	color: #53d69e; /*green*/
 	text-decoration: none;
 }
 
 a:focus {
-	color: #7A0024;
+	color: #33b67e;
 	text-decoration: none;
 }
 
@@ -109,20 +111,27 @@ section#design-projects {
 	text-align: center;
 }
 
+section#design-projects a {
+	color: #d6538b;
+}
+
 div.project-block {
 	display: block;
 	padding: 55px 10px;
 	border: solid;
 	border-width: 15px;
-	border-color: #DEDDDD; /* light grey */
+	border-color: #53d69e; /* green */
 	/*border-radius: 15px;*/
 	margin-bottom: 50px;
+	background-color: #ffffff;
 }
 div.project-block:hover {
 	border-color: #d6538b;
 	/*background-color: #fff7f7;*/
+	background-color: #f9e4ed;
 
 }
+
 div.project-block div.project-title {
 	vertical-align: middle;
 }
