@@ -75,7 +75,7 @@ img.icon {
  * Navigation Styling
  *
  */
-div#portfolio-navigation {
+nav {
 	padding: 20px 30px;
 	box-shadow: 0 1px 1px 0 rgb(230, 230, 230);
 	background-color: #f8f8f8;
@@ -87,6 +87,22 @@ div#portfolio-navigation {
  	left: 0;
  	z-index: 999;
 }
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+
+
+/* Resume content styling*/
 
 
 div#resume-content {
