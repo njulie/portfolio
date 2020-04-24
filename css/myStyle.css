@@ -113,10 +113,10 @@ div.project-block {
 	display: block;
 	padding: 55px 10px;
 	border: solid;
-	border-width: 2px;
+	border-width: 15px;
 	border-color: #DEDDDD; /* light grey */
-	border-radius: 15px;
-	margin-bottom: 30px;
+	/*border-radius: 15px;*/
+	margin-bottom: 50px;
 }
 div.project-block:hover {
 	border-color: #d6538b;
