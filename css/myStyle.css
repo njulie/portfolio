@@ -8,7 +8,7 @@ h1, h3 {
 }
 
 h2, h4, h5, h6, body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -35,6 +35,10 @@ body {
 	width: 90%;
     margin: 3em auto 2em auto;
 	color: #2a2a2a;
+}
+
+p {
+	color: #333;
 }
 
 /*
