@@ -7,6 +7,7 @@
  *
  */
 
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -17,6 +18,10 @@ body,
 html {
 	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
 	color: #333;
+=======
+h2, h4, h5, h6, body {
+	font-family: 'Roboto', sans-serif;
+>>>>>>> 76347b109721a1b367edbe7a3426aeb660edfba6
 }
 
 h1 {
@@ -67,6 +72,16 @@ p {
 	line-height: 1.6em;
 }
 
+<<<<<<< HEAD
+=======
+p {
+	color: #333;
+}
+
+/*
+ * General Link Styling
+ */
+>>>>>>> 76347b109721a1b367edbe7a3426aeb660edfba6
 a {
 	color: #d8518b;
 }
