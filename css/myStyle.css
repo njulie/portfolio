@@ -57,7 +57,7 @@ h6 {
 
 
 body {
-	width: 90%;
+	width: 85%;
 	height: 100%;
     margin: 3em auto 2em auto;
     font-weight: 200;
@@ -119,10 +119,6 @@ nav a {
 	margin-right: 1.5em;
 }
 
-section {
-	padding: 1em;
-}
-
 footer {
 	text-align: center;
 }
@@ -161,8 +157,8 @@ footer {
 /* Work Page */
 #designer-bio {
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 4em;
+	padding-bottom: 1.5em;
 }
 
 #designer-bio p {
@@ -183,7 +179,7 @@ div.project-block {
 	border: solid;
 	border-width: 2em;
 	border-color: #91e5c1; /* green */
-	margin-bottom: 50px;
+	margin-bottom: 2em;
 	background-color: #ffffff;
 }
 div.project-block:hover {
