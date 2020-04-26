@@ -73,21 +73,25 @@ p {
  */
 a {
 	color: #d8518b;
+	font-weight: 400;
 }
 
 a:visited {
 	color: #d8518b;
+	font-weight: 400;
 }
 
 a:hover,
 a:active {
 	color: #53d69e; /*green*/
 	text-decoration: none;
+	font-weight: 400;
 }
 
 a:focus {
 	color: #33b67e;
 	text-decoration: none;
+	font-weight: 400;
 }
 
 img.icon {
