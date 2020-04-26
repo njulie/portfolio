@@ -235,9 +235,9 @@ div#resume-content {
 	}
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) { /*sm laptop*/
 	body {
-		width: 60%;
+		width: 75%;
 	}
 	h1 {
 		font-size: 3.5em;
@@ -251,5 +251,9 @@ div#resume-content {
 	}
 	.project-block {
 		padding: 125px 30px;
+	}
+	.resume-content {
+		width:80%;
+		margin:auto;
 	}
 }
