@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300,200,500');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600&display=swap');
+@import url("https://use.typekit.net/fni0vys.css");
 
 /*
  *
@@ -7,45 +7,46 @@
  *
  */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-body,
-html {
-	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
+body {
 	color: #333;
+	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
+	width: 90%;
+	height: 100%;
+    margin: 3em auto 2em auto;
 }
 
 h1 {
-	font-family: 'Playfair Display', Georgia, serif;
+	color: #333;
+	font-family: adobe-garamond-pro, Georgia, serif;
 	font-weight: 600;
+	font-style: normal;
 	font-size: 2.75em;
 	letter-spacing: 0.01em;
 	margin: 0.25em auto;
 }
 
 h2 {
-	font-family: 'Playfair Display', Georgia, serif;
 	color: #333;
-	font-size: 1.5em;
-	font-weight: 500;
+	font-family: adobe-garamond-pro, Georgia, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.75em;
+	line-height: 1.25em;	
 	margin: 0;
-	line-height: 1.25em;
 }
 
 h3 {
 	color: #777;
-	font-size: 1.15em;
+	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
+	font-size: 1em;
 	font-weight: 400;
-	margin: 0;
 	letter-spacing: 0.01em;
+	margin: 0;
 }
 
 h4 {
 	color: #777;
+	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
 	font-size: 1em;
 	font-weight: 400;
 	letter-spacing: 0.01em;
@@ -53,22 +54,14 @@ h4 {
 
 h5,
 h6 {
-	font-weight: 400;
 	color: #777;
+	font-family: 'Lato', Helvetica-Neue, Helvetica, sans-serif;
+	font-weight: 400;
 	font-style: italic;
-}
-
-
-body {
-	width: 90%;
-	height: 100%;
-    margin: 3em auto 2em auto;
-    /*font-weight: 200;*/
 }
 
 p {
 	line-height: 1.6em;
-	color: #333;
 	font-weight:400;
 }
 
@@ -87,13 +80,13 @@ a:visited {
 
 a:hover,
 a:active {
-	color: #53d69e; /*green*/
+	color: #B42864; /*dark pink */
 	text-decoration: none;
 	font-weight: 400;
 }
 
 a:focus {
-	color: #33b67e;
+	color: #B42864;
 	text-decoration: none;
 	font-weight: 400;
 }
@@ -125,6 +118,15 @@ nav {
 
 nav a {
 	margin-right: 1.5em;
+	color: #333;
+}
+
+nav a:visited {
+	color: #333;
+}
+
+nav a:hover {
+	color: #d8518b;
 }
 
 footer {
@@ -166,15 +168,11 @@ footer {
 #designer-bio {
 	text-align: center;
 	padding-top: 4em;
-	padding-bottom: 1.5em;
+	padding-bottom: 3em;
 }
 
 #designer-bio p {
 	font-size: 1.25em;
-}
-
-#design-projects {
-	text-align: center;
 }
 
 section#design-projects a {
@@ -185,14 +183,15 @@ div.project-block {
 	display: block;
 	padding: 55px 0.5em;
 	border: solid;
-	border-width: 2em;
-	border-color: #91e5c1; /* green */
+	border-width: 0.25em;
+	border-color: #f9e4ed;
+	border-radius: 3px;
 	margin-bottom: 2em;
-	background-color: #ffffff;
+	background-color: #f9e4ed;
+	text-align: center;
 }
 div.project-block:hover {
-	border-color: #d8518b;
-	background-color: #f9e4ed;
+	box-shadow: 0px 0px 2px 0px #E3B1C7;
 
 }
 
