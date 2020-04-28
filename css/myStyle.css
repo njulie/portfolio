@@ -93,7 +93,7 @@ hr {
 nav {
 	padding: 1.5em 2em;
 	box-shadow: 0 1px 0px 0 rgb(240, 240, 240);
-	/*background-color: #f8f8f8;*/
+	background-color: #fff;
 	
 	/* sticky nav */
 	position: fixed;
