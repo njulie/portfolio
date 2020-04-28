@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,200,500');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,200,600');
 @import url("https://use.typekit.net/fni0vys.css");
 
 /*
@@ -70,30 +70,18 @@ p {
  */
 a {
 	color: #d8518b;
-	font-weight: 400;
 }
-
 a:visited {
 	color: #d8518b;
-	font-weight: 400;
 }
-
 a:hover,
 a:active {
 	color: #B42864; /*dark pink */
 	text-decoration: none;
-	font-weight: 400;
 }
-
 a:focus {
 	color: #B42864;
 	text-decoration: none;
-	font-weight: 400;
-}
-
-img.icon {
-	width: 15px;
-	color: pink;
 }
 
 hr {
@@ -104,10 +92,10 @@ hr {
 
 nav {
 	padding: 1.5em 2em;
-	box-shadow: 0 1px 1px 0 rgb(230, 230, 230);
-	background-color: #f8f8f8;
+	box-shadow: 0 1px 0px 0 rgb(240, 240, 240);
+	/*background-color: #f8f8f8;*/
 	
-	/* To fix the nav bar to the top*/
+	/* sticky nav */
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -119,13 +107,16 @@ nav {
 nav a {
 	margin-right: 1.5em;
 	color: #333;
+	letter-spacing: 0.02em;
+	font-weight: 600;
 }
 
 nav a:visited {
 	color: #333;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active {
 	color: #d8518b;
 }
 
