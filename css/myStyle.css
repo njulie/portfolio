@@ -195,7 +195,7 @@ div.project-block div.project-title {
 
 
 /* Resume Page */
-div#resume-content {
+div.content {
 	text-align: left;
 }
 
@@ -248,8 +248,8 @@ div#resume-content {
 	.project-block {
 		padding: 125px 30px;
 	}
-	.resume-content {
-		width:80%;
+	.content {
+		width:70%;
 		margin:auto;
 	}
 }
