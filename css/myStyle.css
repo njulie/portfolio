@@ -28,7 +28,7 @@ h1 {
 h2 {
 	color: #333;
 	font-family: adobe-garamond-pro, Georgia, serif;
-	font-weight: 600;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 1.75em;
 	line-height: 1.25em;	
@@ -62,7 +62,8 @@ h6 {
 
 p {
 	line-height: 1.6em;
-	font-weight:400;
+	font-weight: 400;
+	font-size: 1.5rem;
 }
 
 /*
