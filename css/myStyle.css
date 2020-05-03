@@ -178,31 +178,58 @@ footer {
 
 section#design-projects a {
 	color: #d8518b;
+	background-color: #f9e4ed;
+	margin-bottom: 1.5em;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+}
+
+div.project-bkgrd {
+	border-radius: 3px;	
+	position: absolute;
+	display: block;
+}
+
+#objects-bkgrd {
+	background-image: url("../Projects/objects.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#micro-seg-bkgrd {
+	background-image: url("../Projects/micro-seg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#journey-bkgrd {
+	background-image: url("../Projects/journey/final.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#dcalm-bkgrd {
+	background-image: url("../Projects/dcalm/vroom.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 div.project-block {
 	display: block;
-	padding: 55px 0.5em;
-	border: solid;
-	border-width: 0.25em;
-	border-color: #f9e4ed;
-	border-radius: 3px;
-	margin-bottom: 2em;
-	background-color: #f9e4ed;
-	text-align: center;
+	height: 20rem;
+	box-shadow: 0px 0px 5px 1px #ccc;
 }
+
 div.project-block:hover {
-	box-shadow: 0px 0px 5px 1px #E3B1C7;
+	box-shadow: 0px 0px 10px 1px #aaa; /*#E3B1C7*/
 
 }
 
-div.project-block div.project-title {
-	vertical-align: middle;
-}
 
 
-
-/* Resume Page */
+/* Content within secondary pages */
 div.content {
 	text-align: left;
 }
