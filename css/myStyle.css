@@ -178,7 +178,7 @@ footer {
 
 section#design-projects a {
 	color: #d8518b;
-	background-color: #f9e4ed;
+	background-color: #fff; /*#f9e4ed;*/
 	margin-bottom: 1.5em;
 	text-align: center;
 	border-radius: 3px;
@@ -195,25 +195,35 @@ div.project-bkgrd {
 	background-image: url("../Projects/objects.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: top center;
 }
 
 #micro-seg-bkgrd {
 	background-image: url("../Projects/micro-seg.png");
 	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
+#nycc-bkgrd {
+	background-image: url("../Projects/nycc.png");
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: top center;
 }
 
 #journey-bkgrd {
 	background-image: url("../Projects/journey/final.png");
 	background-repeat: no-repeat;
-	background-position: center center;
 	background-size: cover;
+	background-position: top center;
 }
 
 #dcalm-bkgrd {
 	background-image: url("../Projects/dcalm/vroom.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 }
 
 div.project-block {
