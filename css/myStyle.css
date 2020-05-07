@@ -201,8 +201,8 @@ div.project-bkgrd {
 #micro-seg-bkgrd {
 	background-image: url("../Projects/micro-seg.png");
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: top center;
+	background-size: cover;
+	background-position: top left;
 }
 
 #nycc-bkgrd {
