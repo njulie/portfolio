@@ -195,7 +195,7 @@ div.project-bkgrd {
 	background-image: url("../Projects/objects.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: top left;
 }
 
 #micro-seg-bkgrd {
