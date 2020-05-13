@@ -140,13 +140,9 @@ footer {
 	text-align: center;
 }
 
-.container {
+.content {
 	position: relative;
 	top: 2em;
-}
-
-.row {
-	margin: 0;
 }
 
 .spacer-sm {
@@ -161,7 +157,9 @@ footer {
 	height: 3em;
 }
 
-
+.single-project {
+	margin:0;
+}
 
 
 
@@ -223,6 +221,10 @@ div.project-bkgrd {
 	background-position: center center;
 }
 
+div.single-project {
+	margin-bottom: 4em;
+}
+
 div.project-block {
 	display: block;
 	height: 20rem;
@@ -260,19 +262,9 @@ div.content {
 		margin: auto;
 	}
 	.project-block {
-		padding: 5em 2em;
+		padding: 17em 2em;
 	}
 
-}
-
-@media screen and (min-width: 900px) {
-	body {
-		width: 75%;
-	}
-	#designer-bio {
-		width: 75%;
-		margin: auto;
-	}
 }
 
 @media screen and (min-width: 1024px) { /*sm laptop*/
@@ -289,11 +281,9 @@ div.content {
 	#designer-bio p {
 		font-size: 1.5em;
 	}
-	.project-block {
-		padding: 125px 30px;
-	}
+
 	.content {
-		width:70%;
+		width: 70%;
 		margin:auto;
 	}
 }
