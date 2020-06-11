@@ -17,7 +17,7 @@
 		<style>
 			img.secondary-page-image {
 				width: 100%;
-				border-radius: 15px;
+				border-radius: 5px;
 			}
 
 			h3.block-quote {
@@ -49,28 +49,73 @@
 		</nav>
 
 		<div class="container">
-			<section class="pb-5">
+			<div>
 				<div class="spacer-med"></div>
 				<a href="index.html">&lt; Back</a>
 				<div class="spacer-med"></div>
+			</div>
 
-				<div class="pb-5">
-					<h1>Design Process: Design Thinking, Ideation, Prototyping</h1>
-					<h2>Stanford - Undergraduate Project</h2>
+			<div>
+				<h1>Object Storage Product Design Owner</h1>
+				<p>Objects is one product in Nutanix's suite of storage service solutions. The first release allowed IT administrators to create object stores (databases) to begin storing photos, videos, documents, and other types of data files. I was the lead designer on this product, seeing the product through from beginning to early access.</p>
+				<a href="https://docs.google.com/presentation/d/1qF2adfn1iy6qDQdoSXHEK4YIn2_hI1MWWi5BsFy1xU8/edit?usp=sharing" target="_blank">View Official Presentation</a>
+				<div class="py-5">
+					<img class="secondary-page-image" src="Projects/objects/objects-display.png" alt="This is a screenshot of the Objects UI."/> 
 				</div>
+			</div>
 
-				<h3>Project Goal</h3>
-				<div class="spacer-sm"></div>
-				<p id="task">In 3 weeks, redesign the commute experience for medium-distance commuters assuming autonomous cars are the common method of transportation. This was part of CS377D: Designing Calm under the d.school, Stanford's Institute of Design, and we partnered with Renault Innovation Silicon Valley, the Renault-Nissan Alliance Research Office.</p>
-				<div class="spacer-sm"></div>
-				<img class="secondary-page-image" src="Projects/dcalm/dcalm.jpg" alt="Image of us and a car"/>
-			</section>
+			<hr>
 
-			<section class="py-5">
-				<h2>Initial Research - Collecting Quantitative Data</h2>
-				<div class="spacer-sm"></div>
+			<div class="py-4">
+				<h2>The Problem</h2>
+				<div class="d-md-flex">
+					<div class="pr-5">
+						<p id="task">In a world where data is growing at an exponential rate, IT admins have to keep up. Traditional storage systems aren't equipped to handle petabytes of data, but object storage is.</p>
+						<p>Objects was designed to give IT admins a scalable solution that their teams and developers can use to store data, retrieve files quickly, protect against accidental file deletion and archive data to satisfy legal compliance (useful for finance, healthcare, and legal organizations).</p>
+					</div>
+					<div class="py-4">
+						<img class="secondary-page-image" src="Projects/objects/petabytes.jpg" alt="This is an image of a data center of servers."/>
+					</div>
+				</div>
+			</div>
 
-				<p>Two other Stanford students and I set out to tackle this broad design challenge by scoping for information and interviewing commuters. To see what challenges commuters in general faced and amass as much user data as possible, we sent out a survey and publicized it on social media platforms.</p>
+			<hr>
+
+			<div class="py-3">
+				<h2 class="pb-3">The Users</h2>
+				<div class="d-md-flex justify-content-between">
+					<div class="pr-3">
+						<h3 class="text-secondary">Service Admin</h3>
+						<p>Service admins (e.g. Northrop Grumman) help IT teams set up infrastructure services and may help other teams set up object storage.</p>
+					</div>
+					<div class="pr-3">
+						<h3 class="text-secondary">IT admin</h3>
+						<p>Many of our IT admin customers wanted object storage because it's cost-effective and will satisfy legal compliance use cases to maintain an archive.</p>
+					</div>
+					<div>
+						<h3 class="text-secondary">App Developer</h3>
+						<p>App developers will create "buckets" (like folders in Google Drive) to store their own objects without infringing upon other developer files.</p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="py-3">
+				<h2 class="pb-2">Early Deliverables</h2>
+				<h3 class="text-secondary">UX Documents</h3>
+				<ul>
+					<li>Personas (Used existing personas created within the organization)</li>
+					<li><a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View user stories and technical requirements</a>
+					</li>
+				</ul>
+
+				<h3 class="text-secondary">Interactive Visualizations (Explorations)</h3>
+				<ul>
+					<li><a href="">View four visual explorations</a></li>
+				</ul>
+
+				<p></p>
 					
 				<p>In it, we asked participants to imagine a world without commuting, leaving the involvement of autonomous cars a secret to avoid biasing their answers. Then, we inquired what activities they would want to do if given more time in the morning to see what mattered to people in the time between waking up and driving to work. We also asked participants to provide a description of their commute experiences, both positive and negative, to clue us in on which experiences to enhance and which ones to rectify.</p>
 
@@ -102,7 +147,7 @@
 				<p>All of these findings spoke to one main topic, that the stress comes mainly from distractions on he road. Combining this insight with the fact that many people expressed interest in sleeping, we reframed our design task as such:</p>
 				<h3 class="block-quote">"How might we remove commuters from environmental stressors on the road that makes them feel relaxed on their way to work?"</h3>
 				<p>Now that we had a narrow angle to proceed, it was time to prototype an experience.</p>
-			</section>
+			</div>
 
 			<hr>
 
