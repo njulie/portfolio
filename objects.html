@@ -11,13 +11,12 @@
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+		<!--<link rel="stylesheet" type="text/css" href="css/simple-grid.css">-->
 		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 
 		<style>
 			img.secondary-page-image {
 				width: 100%;
-				border-radius: 5px;
 			}
 
 			h3.block-quote {
@@ -56,9 +55,9 @@
 			</div>
 
 			<div>
-				<h1>Object Storage Product Design Owner</h1>
+				<h1 class="pb-2">Object Storage Product Design Owner</h1>
 				<p>Objects is one product in Nutanix's suite of storage service solutions. The first release allowed IT administrators to create object stores (databases) to begin storing photos, videos, documents, and other types of data files. I was the lead designer on this product, seeing the product through from beginning to early access.</p>
-				<a href="https://docs.google.com/presentation/d/1qF2adfn1iy6qDQdoSXHEK4YIn2_hI1MWWi5BsFy1xU8/edit?usp=sharing" target="_blank">View Official Presentation</a>
+				<!--<a href="https://docs.google.com/presentation/d/1qF2adfn1iy6qDQdoSXHEK4YIn2_hI1MWWi5BsFy1xU8/edit?usp=sharing" target="_blank">View Official Presentation</a>-->
 				<div class="py-5">
 					<img class="secondary-page-image" src="Projects/objects/objects-display.png" alt="This is a screenshot of the Objects UI."/> 
 				</div>
@@ -81,8 +80,8 @@
 
 			<hr>
 
-			<div class="py-3">
-				<h2 class="pb-3">The Users</h2>
+			<div class="py-5">
+				<h2 class="pb-4">The Users</h2>
 				<div class="d-md-flex justify-content-between">
 					<div class="pr-3">
 						<h3 class="text-secondary">Service Admin</h3>
@@ -101,29 +100,55 @@
 
 			<hr>
 
-			<div class="py-3">
-				<h2 class="pb-2">Early Deliverables</h2>
-				<h3 class="text-secondary">UX Documents</h3>
-				<ul>
-					<li>Personas (Used existing personas created within the organization)</li>
-					<li><a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View user stories and technical requirements</a>
-					</li>
-				</ul>
+			<div class="py-5">
+				<h2 class="pb-4">Focus on the User, Less on Features</h2>
+				<p>In the beginning of the design process, I received a list of engineering requirements of what features the team needed/wanted to build. I worked constantly with the Product Manager and tech leads to clarify what each technical requirement meant for the admin, reframing each requirement into a task that was done from the admin's perspective.</p>
+				<div class="row ml-n1 py-5 px-3 border border-secondary rounded">
+					<div class="col">
+						<h3 class="text-secondary">Sample Technical Requirement</h3>
+						<p>On versioned buckets, delete non-current versions after x days</p>
+					</div>
+					<div class="col">
+						<h3 class="text-secondary">Sample User Story</h3>
+						<p>To free up capacity, an admin/developer needs to set an automatic versioning policy that will delete old versions of a file after a set period of time.</p>
+					</div>
+				</div>
+				<div class="py-5">
+					<p>I sifted through the list of prioritized engineering requirements and established a user story for each to ensure that what we were building aligned with a genuine user need.</p>
+					<a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View full list of user stories and their associated technical requirements</a>
+				</div>
 
-				<h3 class="text-secondary">Interactive Visualizations (Explorations)</h3>
-				<ul>
-					<li><a href="">View four visual explorations</a></li>
-				</ul>
+				<hr>
 
-				<p></p>
+				<div class="py-5">
+					<div class="pb-4">
+						<h2 class="pb-2">Design Iteration 1</h2>
+						<div class="row mx-n3">
+							<div class="col-4">
+								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
+								<a href="">View a sample of the medium-fidelity mockups</a>
+							</div>
+							<div class="col-8">
+								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-1.png" alt="One image of the first design iteration"/>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="py-5">
+						<h2 class="pb-2">Design Iteration 2</h2>
+						<div class="row mx-n3">
+							<div class="col-4">
+								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
+								<a href="">View a sample of the medium-fidelity mockups</a>
+							</div>
+							<div class="col-8">
+								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
+							</div>
+						</div>
+					</div>
 					
-				<p>In it, we asked participants to imagine a world without commuting, leaving the involvement of autonomous cars a secret to avoid biasing their answers. Then, we inquired what activities they would want to do if given more time in the morning to see what mattered to people in the time between waking up and driving to work. We also asked participants to provide a description of their commute experiences, both positive and negative, to clue us in on which experiences to enhance and which ones to rectify.</p>
-
-				<div class="spacer-sm"></div>
-				<div class="spacer-sm"></div>
-
-				<h2>Research Findings</h2>
-				<div class="spacer-sm"></div>
 
 				<p>Our group researcher sent out a survey link on a website, and we received over 200 responses in one week. Based on their responses, we categorized the top three stressors or challenges commuters faced when driving:</p>
 				<ul>
@@ -131,15 +156,6 @@
 					<li>43% - stress about running late for work</li>
 					<li>39% - traffic</li>
 				</ul>
-				<p>In addition, given extra time in the morning, 75% of commuters said they'd sleep in. Other common responses were "watch the news," "eat breakfast," or "exercise."</p>
-				<img class="secondary-page-image" src="Projects/dcalm/sleep.jpg" alt="Sleep image"/>
-				<div class="spacer-med"></div>
-
-				<h2>User Interviews - Collecting Qualitative Data</h2>
-				<div class="spacer-sm"></div>
-				<p>Our final step in conducting preliminary research was to interview real commuters about their transportation experience. It was time to find people we would actually be designing for and empathize with their needs.</p>
-				<img class="secondary-page-image" src="Projects/dcalm/commuterquotes.jpg" alt="Commuter Quotes"/>
-				<div class="spacer-med"></div>
 
 				<h2>Combining Findings to Reframe Question</h2>
 				<div class="spacer-sm"></div>
