@@ -33,7 +33,14 @@ p.bio {
 
 p {
 	line-height: 1.6em;
-	font-size: 1.25rem;
+}
+
+.small-text {
+	font-size:1rem;
+}
+
+.medium-text {
+	font-size: 1.15rem;
 }
 
 /*

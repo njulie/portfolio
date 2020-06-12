@@ -55,7 +55,7 @@
 			</div>
 
 			<div>
-				<h1 class="pb-2">Object Storage Product Design Owner</h1>
+				<h1 class="pb-3">Object Storage Product Design Owner</h1>
 				<p>Objects is one product in Nutanix's suite of storage service solutions. The first release allowed IT administrators to create object stores (databases) to begin storing photos, videos, documents, and other types of data files. I was the lead designer on this product, seeing the product through from beginning to early access.</p>
 				<!--<a href="https://docs.google.com/presentation/d/1qF2adfn1iy6qDQdoSXHEK4YIn2_hI1MWWi5BsFy1xU8/edit?usp=sharing" target="_blank">View Official Presentation</a>-->
 				<div class="py-5">
@@ -66,9 +66,9 @@
 			<hr>
 
 			<div class="py-4">
-				<h2>The Problem</h2>
 				<div class="d-md-flex">
 					<div class="pr-5">
+						<h2 class="pb-2">The Problem</h2>
 						<p id="task">In a world where data is growing at an exponential rate, IT admins have to keep up. Traditional storage systems aren't equipped to handle petabytes of data, but object storage is.</p>
 						<p>Objects was designed to give IT admins a scalable solution that their teams and developers can use to store data, retrieve files quickly, protect against accidental file deletion and archive data to satisfy legal compliance (useful for finance, healthcare, and legal organizations).</p>
 					</div>
@@ -101,9 +101,9 @@
 			<hr>
 
 			<div class="py-5">
-				<h2 class="pb-4">Focus on the User, Less on Features</h2>
+				<h2 class="pb-2">Focus on the User, Less on Features</h2>
 				<p>In the beginning of the design process, I received a list of engineering requirements of what features the team needed/wanted to build. I worked constantly with the Product Manager and tech leads to clarify what each technical requirement meant for the admin, reframing each requirement into a task that was done from the admin's perspective.</p>
-				<div class="row ml-n1 py-5 px-3 border border-secondary rounded">
+				<div class="row ml-n1 mr-1 py-5 px-3 border border-medium rounded">
 					<div class="col">
 						<h3 class="text-secondary">Sample Technical Requirement</h3>
 						<p>On versioned buckets, delete non-current versions after x days</p>
@@ -113,110 +113,84 @@
 						<p>To free up capacity, an admin/developer needs to set an automatic versioning policy that will delete old versions of a file after a set period of time.</p>
 					</div>
 				</div>
-				<div class="py-5">
+				<div class="py-4">
 					<p>I sifted through the list of prioritized engineering requirements and established a user story for each to ensure that what we were building aligned with a genuine user need.</p>
 					<a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View full list of user stories and their associated technical requirements</a>
 				</div>
 
 				<hr>
 
-				<div class="py-5">
+				<div class="py-4">
 					<div class="pb-4">
-						<h2 class="pb-2">Design Iteration 1</h2>
-						<div class="row mx-n3">
-							<div class="col-4">
+						<h2 class="pb-2">Sample User Workflow: Create an Object Store</h2>
+						<div class="row py-3">
+							<div class="col-lg-4 pb-4">
+								<h3 class="text-secondary">Design Iteration 1</h3>
 								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
-								<a href="">View a sample of the medium-fidelity mockups</a>
+								<a href="">View sample of med-fi mockups</a>
 							</div>
-							<div class="col-8">
+							<div class="col-lg-8">
 								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-1.png" alt="One image of the first design iteration"/>
+							</div>
+						</div>
+
+						<div class="row py-3">
+							<div class="col-lg-4">
+								<h3 class="pb-2 text-secondary">Design Iteration 2</h3>
+								<p>The first design was based upon the assumption that admins would like to see how changing one input (e.g. capacity) would impact another input (e.g. performance). However, we learned that as the capacity increases, the performance doesn't necessarily increase.</p>
+								<p>For example, admins may want to allocate a lot of storage and have performance be low if they intend to store archived data that doesn't need to be frequently accessed. As a result, I separated capacity and performance into two separate sections.</p>
+								<a href="">View sample of med-fi mockups</a>
+							</div>
+							<div class="col-lg-8">
+								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
 							</div>
 						</div>
 					</div>
 
 					<hr>
 
-					<div class="py-5">
-						<h2 class="pb-2">Design Iteration 2</h2>
-						<div class="row mx-n3">
-							<div class="col-4">
-								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
-								<a href="">View a sample of the medium-fidelity mockups</a>
+					<div class="py-4">
+						<div class="pb-4">
+							<h2 class="pb-2">Sample User Workflow: Satisfy Legal Compliance</h2>
+							<div class="row py-3">
+								<div class="col-lg-4 pb-4">
+									<h3 class="text-secondary">Design Iteration 1</h3>
+									<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
+									<a href="">View sample of med-fi mockups</a>
+								</div>
+								<div class="col-lg-8">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-1.png" alt="One image of the first design iteration"/>
+								</div>
 							</div>
-							<div class="col-8">
-								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
+
+							<div class="row py-3">
+								<div class="col-lg-4">
+									<h3 class="pb-2 text-secondary">Design Iteration 2</h3>
+									<p>The first design was based upon the assumption that admins would like to see how changing one input (e.g. capacity) would impact another input (e.g. performance). However, we learned that as the capacity increases, the performance doesn't necessarily increase.</p>
+									<p>For example, admins may want to allocate a lot of storage and have performance be low if they intend to store archived data that doesn't need to be frequently accessed. As a result, I separated capacity and performance into two separate sections.</p>
+									<a href="">View sample of med-fi mockups</a>
+								</div>
+								<div class="col-lg-8">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
+								</div>
 							</div>
 						</div>
 					</div>
+
 					
 
-				<p>Our group researcher sent out a survey link on a website, and we received over 200 responses in one week. Based on their responses, we categorized the top three stressors or challenges commuters faced when driving:</p>
-				<ul>
-					<li>51% - negativity towards bad drivers</li>
-					<li>43% - stress about running late for work</li>
-					<li>39% - traffic</li>
-				</ul>
-
-				<h2>Combining Findings to Reframe Question</h2>
-				<div class="spacer-sm"></div>
-
-				<p>All of these findings spoke to one main topic, that the stress comes mainly from distractions on he road. Combining this insight with the fact that many people expressed interest in sleeping, we reframed our design task as such:</p>
-				<h3 class="block-quote">"How might we remove commuters from environmental stressors on the road that makes them feel relaxed on their way to work?"</h3>
-				<p>Now that we had a narrow angle to proceed, it was time to prototype an experience.</p>
+					<div class="py-5">
+						
+					</div>
+				</div>
 			</div>
-
-			<hr>
-
-			<section class="pb-5">
-				<h2>Design Iteration 1: The Infinity Room</h2>
-				<div class="spacer-sm"></div>
-
-				<p>With prototype 1, we aimed to isolate the passenger from the outside environment and transport them into a different space. To achieve this, we chose to cover up the windows.</p>
-				<p>For Test A, we covered the windows with scenic nature images to aid mental relocation to another place, invited passersby to step into the car, played them two soundtracks (30 seconds highway traffic, 30 seconds tropical rainforest noise), and asked them to imagine driving from one place to another.</p>
-				<p>For Test B, we covered the windows with reflective material to create the sense of space (building off the idea of the infinity room) and repeated the process for Test A.</p>
-				<img class="secondary-page-image" src="Projects/dcalm/infinityroom.jpg" alt="Prototype 1"/>
-				<div class="spacer-sm"></div>
-				<p>Our biggest finding from this round of user testing was that covering the windows made users feel trapped and claustrophobic, which brings us to prototype 2.</p>
-				<div class="spacer-med"></div>
-
-				<h2>Design Iteration 2: The DozePod</h2>
-				<div class="spacer-sm"></div>
-
-				<p>Focusing less on visual manipulation and more on the relaxing experience, we carried out two more trials.</p>
-				<p>In the first, we drove users around in the passenger seat for 5 minutes, with no instruction, allowing the Spire, a breathing rate tracker, to collect the user's initial breathing rate.</p>
-				<p>In the second, we covered their eyes with a blindfold, inserted earbuds connected to calming ocean sounds, and reclined their seat, where the Spire continued to record their respiratory rate.</p>
-				<img class="secondary-page-image" src="Projects/dcalm/dozepod.jpg" alt="Prototype 2"/>
-				<div class="spacer-sm"></div>
-				<p>Our most significant finding from this round was that our tactics made users groggy, sleepy, and too relaxed if they were commuting to work in the morning, preparing to start their day. A round of revision was necessary!</p>
-				<div class="spacer-med"></div>
-
-				<h2>Design Iteration 3: VRoom</h2>
-				<div class="spacer-sm"></div>
-
-				<p>Introducing Google Cardboard into the scene! We need something to wake commuters up so that they'd be energized and ready to approach their day of work. This time, we drove users around in the passenger seat for 10 minutes.</p>
-				<p>For the first 5 minutes, we blindfolded our users to create a dark environment, gave them calm nature sounds, and reclined their seats just like we did in prototype 2.</p>
-				<p>However, for the second 5 minutes, we removed the blindfold and switched it in for a Google Cardboard-like Virtual Reality case. This experience was intended to stimulate the senses, and it was a substitute for the idea that the VR would be projected all along the insides of the car. The VR was simply a prototype for this futuristic idea.</p>
-				<img class="secondary-page-image" src="Projects/dcalm/vroom.jpg" alt="Prototype 3"/>
-				<div class="spacer-med"></div>
-
-				<h2>Prototype Findings</h2>
-				<div class="spacer-sm"></div>
-				<p>Polling each user to rate their alertness levels, we ended up with a rise in alertness levels after watching the VR sequence. This meant that our VR trial was successful in our achieving our goal.</p>
-				<img class="secondary-page-image" src="Projects/dcalm/alertlevel.jpg" alt="Alertness Levels"/>
-			</section>
-
-			<section class="pb-5">
-				<h2>Next Steps</h2>
-				<div class="spacer-sm"></div>
-
-				<p>If we were to continue seeing this project through, past the due date and beyond the limitation of class, we would focus on capturing more accurate Spire data (our data set gathered from the Spire was not completely accurate), continuing to iterate with different activities, and test on an actual autonomous car.</p>
-			</section>
 		</div>
+					
 
 		<footer class="bg-light text-dark px-3 px-md-5 py-4">
 			<div class="d-flex justify-content-between">
 				<div class="d-inline-flex">
-					<p class="px-3">Last Updated: 2015</p>
+					<p class="px-3">Last Updated: 2020</p>
 				</div>
 				<div class="d-inline-flex">
 					<a href="index.html" class="pr-3">Back to portfolio</a>
