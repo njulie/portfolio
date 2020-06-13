@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="keywords" content="Julie Ni, Julie Ni portfolio, Julie Ni design, Julie Ni UX, Julie Ni Stanford">
+	    <meta name="description" content="Julie Ni's Portfolio">
+	    <meta name="author" content="Julie Ni">
+		<title>Julie Ni Portfolio | Designing Calm (CS377D)</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!--<link rel="stylesheet" type="text/css" href="css/simple-grid.css">-->
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+		<style>
+			img.secondary-page-image {
+				width: 100%;
+			}
+
+			h3.block-quote {
+				padding: 20px 40px;
+				line-height: 1.25em;"
+			}
+		</style>
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-md-5">
+	  			<a class="navbar-brand font-weight-bolder" href="index.html">Julie Ni</a>
+	 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  			<div class="collapse navbar-collapse" id="navbarNav">
+	    			<ul class="navbar-nav">
+	      				<li class="nav-item">
+	       					<a class="nav-link active" href="index.html">Portfolio <span class="sr-only">(current)</span></a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="JulieNi-Resume.pdf" target="_blank">Resume</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="https://www.linkedin.com/in/julie-ni/" target="_blank">Linked In</a>
+	      				</li>
+	      			</ul>
+				</div>
+		</nav>
+
+		<div class="container">
+			<div>
+				<div class="spacer-med"></div>
+				<a href="index.html">&lt; Back</a>
+				<div class="spacer-med"></div>
+			</div>
+
+			<div>
+				<h1 class="pb-3">Object Storage Product Design Owner</h1>
+				<p>Objects is one product in Nutanix's suite of storage service solutions. The first release allowed IT administrators to create object stores (databases) to begin storing photos, videos, documents, and other types of data files. I was the lead designer on this product, seeing the product through from beginning to early access.</p>
+				<!--<a href="https://docs.google.com/presentation/d/1qF2adfn1iy6qDQdoSXHEK4YIn2_hI1MWWi5BsFy1xU8/edit?usp=sharing" target="_blank">View Official Presentation</a>-->
+				<div class="py-5">
+					<img class="secondary-page-image" src="Projects/objects/objects-display.png" alt="This is a screenshot of the Objects UI."/> 
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="py-4">
+				<div class="d-md-flex">
+					<div class="pr-5">
+						<h2 class="pb-2">The Problem</h2>
+						<p id="task">In a world where data is growing at an exponential rate, IT admins have to keep up. Traditional storage systems aren't equipped to handle petabytes of data, but object storage is.</p>
+						<p>Objects was designed to give IT admins a scalable solution that their teams and developers can use to store data, retrieve files quickly, protect against accidental file deletion and archive data to satisfy legal compliance (useful for finance, healthcare, and legal organizations).</p>
+					</div>
+					<div class="py-4">
+						<img class="secondary-page-image" src="Projects/objects/petabytes.jpg" alt="This is an image of a data center of servers."/>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="py-5">
+				<h2 class="pb-4">The Users</h2>
+				<div class="d-md-flex justify-content-between">
+					<div class="pr-3">
+						<h3 class="text-secondary">Service Admin</h3>
+						<p>Service admins (e.g. Northrop Grumman) help IT teams set up infrastructure services and may help other teams set up object storage.</p>
+					</div>
+					<div class="pr-3">
+						<h3 class="text-secondary">IT admin</h3>
+						<p>Many of our IT admin customers wanted object storage because it's cost-effective and will satisfy legal compliance use cases to maintain an archive.</p>
+					</div>
+					<div>
+						<h3 class="text-secondary">App Developer</h3>
+						<p>App developers will create "buckets" (like folders in Google Drive) to store their own objects without infringing upon other developer files.</p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="py-5">
+				<h2 class="pb-2">Focus on the User, Less on Features</h2>
+				<p>In the beginning of the design process, I received a list of engineering requirements of what features the team needed/wanted to build. I worked constantly with the Product Manager and tech leads to clarify what each technical requirement meant for the admin, reframing each requirement into a task that was done from the admin's perspective.</p>
+				<div class="row ml-n1 mr-1 py-5 px-3 border border-medium rounded">
+					<div class="col">
+						<h3 class="text-secondary">Sample Technical Requirement</h3>
+						<p>On versioned buckets, delete non-current versions after x days</p>
+					</div>
+					<div class="col">
+						<h3 class="text-secondary">Sample User Story</h3>
+						<p>To free up capacity, an admin/developer needs to set an automatic versioning policy that will delete old versions of a file after a set period of time.</p>
+					</div>
+				</div>
+				<div class="py-4">
+					<p>I sifted through the list of prioritized engineering requirements and established a user story for each to ensure that what we were building aligned with a genuine user need.</p>
+					<a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View full list of user stories and their associated technical requirements</a>
+				</div>
+
+				<hr>
+
+				<div class="py-4">
+					<div class="pb-4">
+						<h2 class="pb-2">Sample User Workflow: Create an Object Store</h2>
+						<div class="row py-3">
+							<div class="col-lg-4 pb-4">
+								<h3 class="text-secondary">Design Iteration 1</h3>
+								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
+								<a href="https://drive.google.com/file/d/12Gmbf-BLsjZ-4prpPa1tw0BsjSkFGg-p/view?usp=sharing" target="_blank">View sample of high-fidelity mockups</a>
+							</div>
+							<div class="col-lg-8">
+								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-1.png" alt="One image of the first design iteration"/>
+							</div>
+						</div>
+
+						<div class="row py-3">
+							<div class="col-lg-4">
+								<h3 class="pb-2 text-secondary">Design Iteration 2</h3>
+								<p>The first design was based upon the assumption that admins would like to see how changing one input (e.g. capacity) would impact another input (e.g. performance). However, we learned that as the capacity increases, the performance doesn't necessarily increase.</p>
+								<p>For example, admins may want to allocate a lot of storage and have performance be low if they intend to store archived data that doesn't need to be frequently accessed. As a result, I separated capacity and performance into two separate sections.</p>
+								<a href="">View sample of med-fi mockups</a>
+							</div>
+							<div class="col-lg-8">
+								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="py-4">
+						<div class="pb-4">
+							<h2 class="pb-2">Sample User Workflow: Satisfy Legal Compliance</h2>
+							<div class="row py-3">
+								<div class="col-lg-4 pb-4">
+									<h3 class="text-secondary">Design Iteration 1</h3>
+									<p>I designed this under the assumption that admins/developers would want to create a folder (bucket is the technical term) initially dedicated to storing files for archival purposes. This bucket would contain photos, videos, documents and other media files that are unalterable. As such, in the workflow to create a bucket, I included the WORM setting (technical term for archival purposes) - only to be separated out after user testing with 5 customers.</a>
+								</div>
+								<div class="col-lg-8">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/worm-iteration-1.png" alt="One image of the first design iteration"/>
+								</div>
+							</div>
+
+							<div class="row py-3">
+								<div class="col-lg-4">
+									<h3 class="pb-2 text-secondary">Design Iteration 2</h3>
+									<p>After testing the workflow with five customers, I learned that admins/developers don't really think about archival use cases when they create a bucket. They only get the legal requirement later in the process when they've already created the bucket and have started storing files in it. As such, it's not appropriate to incorporate the WORM section in the creation workflow, so I separated it into its own workflow.</a>
+								</div>
+								<div class="col-lg-8">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/worm-iteration-2.png" alt="One image of the second design iteration"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="pt-4">
+						<div class="pb-4">
+							<h2 class="pb-2">Sometimes...explorations are dead ends</h2>
+							<h3 class="text-secondary">Sample Visuals</h3>
+							<p>Early in the design process, I explored some ways to help admins get an overview of what types of objects/files are stored in their environment. We assumed that seeing a distribution of data by their size and where (what clusters) the data resided on would help admins better understand their storage environment and troubleshoot issues.</p>
+							<p>These explorations were scrapped after conducting a user test with five different admins. I discovered that while they understood what the visualizations were trying to convey, they expressed that they didn't know what to do with the information. In their day-to-day use of the product, they wouldn't find any value in seeing the visuals. While the engineers on the team were enthusiastic towards the visuals due to the "wow" factor, I decided it was better to keep the user interface filled with elements and actions admins would actually need on their day-to-day jobs rather than wow them once and leave them with irrelevant visuals on every day after.</p>
+							<a href="https://drive.google.com/file/d/1W8PqXPmuTNqdiFQlJMFgJNJ_8yJ1Clqo/view?usp=sharing" target="_blank">View all medium-fidelity mockups</a>
+							<div class="row py-3">
+								<div class="col-lg-6 pb-4">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/visual1.png" alt="Image of a circular visualization"/>
+								</div>
+								<div class="col-lg-6">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/visual2.png" alt="Image of a circular visualization"/>
+								</div>
+							</div>
+
+							<div class="row py-3">
+								<div class="col-lg-6 pb-4">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/visual3.png" alt="Image of a circular visualization"/>
+								</div>
+								<div class="col-lg-6">
+									<img class="secondary-page-image border border-medium" src="Projects/objects/visual4.png" alt="Image of a data visualization"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="pt-4">
+						<h2 class="pb-2">Final Results</h2>
+						<div class="row">
+							<div class="col-lg-6 pb-2">
+								<h3 class="pb-2 text-secondary">Feedback</h3>
+								<p>After the early access release to around our initial customers, the team received feedback about how simple the object store experience was, compared to the typical complexity of storage infrastucture products.</p>
+							</div>
+							<div class="col-lg-6 pb-2">
+								<h3 class="pb-2 text-secondary">Next Steps</h3>
+								<p>Future improvements would include exploring more graphs that would be categorized by users so that admins could contact their developers when capacity was running low. Being able to see who was using how much storage would help with their internal reports.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+					
+
+		<footer class="bg-light text-dark px-3 px-md-5 py-4">
+			<div class="d-flex justify-content-between">
+				<div class="d-inline-flex">
+					<p class="px-3">Last Updated: 2020</p>
+				</div>
+				<div class="d-inline-flex">
+					<a href="index.html" class="pr-3">Back to portfolio</a>
+					<a href="#">Back to top</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	</body>
+</html>
