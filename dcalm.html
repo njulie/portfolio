@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <meta name="keywords" content="Julie Ni, Julie Ni portfolio, Julie Ni design, Julie Ni UX, Julie Ni Stanford">
 	    <meta name="description" content="Julie Ni's Portfolio">
 	    <meta name="author" content="Julie Ni">
 		<title>Julie Ni Portfolio | Designing Calm (CS377D)</title>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
 		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 
@@ -20,7 +20,7 @@
 				border-radius: 15px;
 			}
 
-			h2.block-quote {
+			h3.block-quote {
 				padding: 20px 40px;
 				line-height: 1.25em;"
 			}
@@ -28,22 +28,37 @@
 		
 	</head>
 	<body>
-		<nav>
-			<a href="index.html"><strong>Work</strong></a>
-			<a href="julieni-resume.pdf">Resume</a>
-			<a href="https://www.linkedin.com/in/julie-ni-2277261a0/" target="_blank">
-				LinkedIn</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-md-5">
+	  			<a class="navbar-brand font-weight-bolder" href="index.html">Julie Ni</a>
+	 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  			<div class="collapse navbar-collapse" id="navbarNav">
+	    			<ul class="navbar-nav">
+	      				<li class="nav-item">
+	       					<a class="nav-link active" href="index.html">Portfolio <span class="sr-only">(current)</span></a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="JulieNi-Resume.pdf" target="_blank">Resume</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="https://www.linkedin.com/in/julie-ni/" target="_blank">Linked In</a>
+	      				</li>
+	      			</ul>
+				</div>
 		</nav>
 
-		<div class="content">
-			<section>
+		<div class="container">
+			<section class="pb-5">
 				<div class="spacer-med"></div>
-				<a class="back-link" href="index.html">&lt; Back</a>
-				<div class="spacer-sm"></div>
+				<a href="index.html">&lt; Back</a>
+				<div class="spacer-med"></div>
 
-				<h1>Designing Calm</h1>
-				<h2>Design Thinking</h2>
-				<hr>
+				<div class="pb-5">
+					<h1>Design Process: Design Thinking, Ideation, Prototyping</h1>
+					<h2>Stanford - Undergraduate Project</h2>
+				</div>
+
 				<h3>Project Goal</h3>
 				<div class="spacer-sm"></div>
 				<p id="task">In 3 weeks, redesign the commute experience for medium-distance commuters assuming autonomous cars are the common method of transportation. This was part of CS377D: Designing Calm under the d.school, Stanford's Institute of Design, and we partnered with Renault Innovation Silicon Valley, the Renault-Nissan Alliance Research Office.</p>
@@ -51,12 +66,8 @@
 				<img class="secondary-page-image" src="Projects/dcalm/dcalm.jpg" alt="Image of us and a car"/>
 			</section>
 
-			<hr>
-
-			<section>
-				<h2>Initial Research</h2>
-				<div class="spacer-med"></div>
-				<h3>Collecting Data</h3>
+			<section class="py-5">
+				<h2>Initial Research - Collecting Quantitative Data</h2>
 				<div class="spacer-sm"></div>
 
 				<p>Two other Stanford students and I set out to tackle this broad design challenge by scoping for information and interviewing commuters. To see what challenges commuters in general faced and amass as much user data as possible, we sent out a survey and publicized it on social media platforms.</p>
@@ -66,7 +77,7 @@
 				<div class="spacer-sm"></div>
 				<div class="spacer-sm"></div>
 
-				<h3>Findings</h3>
+				<h2>Research Findings</h2>
 				<div class="spacer-sm"></div>
 
 				<p>Our group researcher sent out a survey link on a website, and we received over 200 responses in one week. Based on their responses, we categorized the top three stressors or challenges commuters faced when driving:</p>
@@ -79,26 +90,24 @@
 				<img class="secondary-page-image" src="Projects/dcalm/sleep.jpg" alt="Sleep image"/>
 				<div class="spacer-med"></div>
 
-				<h3>User Interviews</h3>
+				<h2>User Interviews - Collecting Qualitative Data</h2>
 				<div class="spacer-sm"></div>
 				<p>Our final step in conducting preliminary research was to interview real commuters about their transportation experience. It was time to find people we would actually be designing for and empathize with their needs.</p>
 				<img class="secondary-page-image" src="Projects/dcalm/commuterquotes.jpg" alt="Commuter Quotes"/>
 				<div class="spacer-med"></div>
 
-				<h3>Reframing the Question</h3>
+				<h2>Combining Findings to Reframe Question</h2>
 				<div class="spacer-sm"></div>
 
 				<p>All of these findings spoke to one main topic, that the stress comes mainly from distractions on he road. Combining this insight with the fact that many people expressed interest in sleeping, we reframed our design task as such:</p>
-				<h2 class="block-quote">"How might we remove commuters from environmental stressors on the road that makes them feel relaxed on their way to work?"</h2>
+				<h3 class="block-quote">"How might we remove commuters from environmental stressors on the road that makes them feel relaxed on their way to work?"</h3>
 				<p>Now that we had a narrow angle to proceed, it was time to prototype an experience.</p>
 			</section>
 
 			<hr>
 
-			<section>
-				<h2>Three Prototypes/Iterations</h2>
-				<div class="spacer-med"></div>
-				<h3>One: The Infinity Room</h3>
+			<section class="pb-5">
+				<h2>Design Iteration 1: The Infinity Room</h2>
 				<div class="spacer-sm"></div>
 
 				<p>With prototype 1, we aimed to isolate the passenger from the outside environment and transport them into a different space. To achieve this, we chose to cover up the windows.</p>
@@ -109,7 +118,7 @@
 				<p>Our biggest finding from this round of user testing was that covering the windows made users feel trapped and claustrophobic, which brings us to prototype 2.</p>
 				<div class="spacer-med"></div>
 
-				<h3>Two: The DozePod</h3>
+				<h2>Design Iteration 2: The DozePod</h2>
 				<div class="spacer-sm"></div>
 
 				<p>Focusing less on visual manipulation and more on the relaxing experience, we carried out two more trials.</p>
@@ -120,7 +129,7 @@
 				<p>Our most significant finding from this round was that our tactics made users groggy, sleepy, and too relaxed if they were commuting to work in the morning, preparing to start their day. A round of revision was necessary!</p>
 				<div class="spacer-med"></div>
 
-				<h3>Three: VRoom</h3>
+				<h2>Design Iteration 3: VRoom</h2>
 				<div class="spacer-sm"></div>
 
 				<p>Introducing Google Cardboard into the scene! We need something to wake commuters up so that they'd be energized and ready to approach their day of work. This time, we drove users around in the passenger seat for 10 minutes.</p>
@@ -129,28 +138,35 @@
 				<img class="secondary-page-image" src="Projects/dcalm/vroom.jpg" alt="Prototype 3"/>
 				<div class="spacer-med"></div>
 
-				<h3>Prototype Findings</h3>
+				<h2>Prototype Findings</h2>
 				<div class="spacer-sm"></div>
 				<p>Polling each user to rate their alertness levels, we ended up with a rise in alertness levels after watching the VR sequence. This meant that our VR trial was successful in our achieving our goal.</p>
 				<img class="secondary-page-image" src="Projects/dcalm/alertlevel.jpg" alt="Alertness Levels"/>
 			</section>
 
-			<hr>
-
-			<section>
+			<section class="pb-5">
 				<h2>Next Steps</h2>
 				<div class="spacer-sm"></div>
 
 				<p>If we were to continue seeing this project through, past the due date and beyond the limitation of class, we would focus on capturing more accurate Spire data (our data set gathered from the Spire was not completely accurate), continuing to iterate with different activities, and test on an actual autonomous car.</p>
 			</section>
 		</div>
-		<hr>
-		<footer>
-			<p>Julie Ni (2020)</p>
+
+		<footer class="bg-light text-dark px-3 px-md-5 py-4">
+			<div class="d-flex justify-content-between">
+				<div class="d-inline-flex">
+					<p class="px-3">Last Updated: 2015</p>
+				</div>
+				<div class="d-inline-flex">
+					<a href="index.html" class="pr-3">Back to portfolio</a>
+					<a href="#">Back to top</a>
+				</div>
+			</div>
 		</footer>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 	</body>
 </html>
