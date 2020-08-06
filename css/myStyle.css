@@ -25,12 +25,23 @@ body {
 
 h1 {
 	font-weight: 400;
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 h2 {
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1.5rem;
+}
+
+h5 {
+	letter-spacing:1px;
+	font-size: 1rem;
+	font-weight:300;
+}
+
+p {
+	line-height: 1.6em;
+	font-weight:300;
 }
 
 p.bio {
@@ -39,9 +50,8 @@ p.bio {
 	font-size: 1.5rem;
 }
 
-p {
-	line-height: 1.6em;
-	font-weight:300;
+.case-study p {
+	font-size: 1.25rem;
 }
 
 .small-text {
@@ -71,9 +81,9 @@ a:focus {
 	text-decoration: none;
 }
 
-hr {
+hr.case-study-divider {
 	border-color: #e0e0e0;
-	border-width: 1px;
+	border-width: 3px;
 }
 
 hr.separator-sm {
@@ -103,6 +113,9 @@ hr.separator-sm {
 */
 .cursive {
 	font-family: "Pacifico", cursive;
+}
+
+.highlight {
 	color: #d8518b;
 }
 
@@ -113,7 +126,18 @@ hr.separator-sm {
 .section-title {
 	display: inline-block;
 	border-top: 0.25em solid #F4CEDE;
+	padding-top: 0.5em;
+}
+
+.super-section-title {
+	border-top: 0.25em solid #F4CEDE;
 	padding-top: 0.4em;
+}
+
+.sub-section-title {
+	border-top: 0.15em solid #e2e4e6;
+	padding-top: 0.1em;
+	margin-top: 0.5em;
 }
 
 .project-title {
@@ -269,6 +293,27 @@ div.project-block {
 }
 
 
+
+/* case-study page styling */
+img.secondary-page-image {
+	width: 50%;
+	margin: auto;
+}
+
+td {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	line-height: 1.5em;
+	vertical-align: top;
+}
+
+tr.customer {
+	background-color: #f2f4f6;
+}
+
+
 /*
  *
  * Media Queries for Responsiveness
@@ -276,7 +321,10 @@ div.project-block {
  */
 
 @media screen and (min-width: 768px) { /*Tablets*/
-
+	img.secondary-page-image {
+		width: 100%;
+		margin: auto;
+	}
 }
 
 @media screen and (min-width: 1024px) { /*sm laptop*/
@@ -284,7 +332,10 @@ div.project-block {
 		font-size:4rem;
 	}
 	h2 {
-		font-size:3rem;
+		font-size:2.75rem;
+	}
+	h5 {
+		font-size: 1.25rem;
 	}
 
 }

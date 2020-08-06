@@ -14,17 +14,13 @@
 		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 
 		<style>
-			img.secondary-page-image {
-				width: 100%;
-			}
-
 			.block-quote {
 				padding: 0.5em 1.5em;
 				line-height: 1.5em;
 				border-left: solid;
 				border-width: 5px;
 				border-color: #f3c6dd;
-				font-weight:400;
+				font-weight:300;
 			}
 		</style>
 		
@@ -50,78 +46,169 @@
 				</div>
 		</nav>
 
-		<div class="container">
+		<div class="container case-study">
 			<div>
 				<div class="spacer-med"></div>
 				<a href="index.html">&lt; Back</a>
 				<div class="spacer-med"></div>
 			</div>
 
-			<div class="d-lg-flex pb-4">
-				<div class="pr-5">
-					<h1 class="pb-3">New York City Center Mobile Design</h1>
-					<p>This was a passion project I chose to work on after working briefly as a call center representative at New York City Center, Manhattan's oldest theater venue. I saw how painful it was for customers to purchase tickets online and personally helped customers buy tickets over the phone through the sales line. Wouldn't it be great if the theater had an app for customers to use?</p>
-					<p><small>Disclaimer: This is neither part of a company nor a launched product.</small></p>
+			<div class="d-lg-flex py-md-5 my-3">
+				<div class="pr-sm-5">
+					<h5 class="pb-2 text-secondary">Mobile UI/UX Design</h5>
+					<h1 class="pb-1">CityTix</h1>
+					<p>CityTix is a passion project* (ticket purchasing app) I initiated while working at New York City Center in 2020, Manhattan's oldest performing arts venue.</p>
+
+					<p>Throughout this project, I conducted field observations, created customer personas, crafted lo-fi wireframes, high-fi mockups, and a working prototype to better realize my vision.</p>
+					
+					<p class="pt-5"><small>*Disclaimer: This is neither part of a company nor a launched product.</small></p>
 				</div>
 				<div>
 					<img class="secondary-page-image" src="Projects/nycc/nycc-cover.png" alt="This is a screenshot of the mobile app"/>
 				</div>
 			</div>
 
-			<hr>
+			<div class="py-5 my-3">
+				<h2 class="super-section-title cursive">Research</h2>
 
-			<div class="py-4">
-				<h2 class="pb-2">Who'd be the app's primary users?</h2>
-				<p>While I answered calls over the course of a month, I noticed incoming callers falling into two main groups.</p>
-				<div class="row">
-					<div class="col-lg-6 border border-light">
-						<img width="100%" src="Projects/nycc/nycc-Julia.jpg" alt="User Persona (Julia): Elderly donor to NYCC. Majority of our incoming calls"/>
-					</div>
-					<div class="col-lg-6 border border-light">
-						<img width="100%" src="Projects/nycc/nycc-Juan.jpg" alt="User Persona (Juan): Student on a budget. Minority of our incoming calls"/>
-					</div>
+				<div class="pt-4">
+					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Field Observations</h3>
+
+					<p>As a call center representative at New York City Center (NYCC), I talked to customers over the phone and helped them buy tickets for shows they wanted to see. While working there, I saw and felt firsthand how <strong>difficult and frustrating</strong> it was for customers (and sales reps) to complete an online ticket purchase.</p>
+					
+					<p>The <strong>enterprise software (Tessitura) we were using was clunky, outdated, and error prone</strong>, and customers often had to repeat the same information multiple times to sales representatives, keeping both parties on the phone for longer than necessary (sometimes resulting in a failed sale).</p>
+
+					<p>Many customers were also on-the-go</strong>, calling to buy tickets because they had a spare moment in their day. One man was getting into a cab as he called in (he had to call back at a later time); one woman was rummaging through her purse to find details for the show ticket she wanted to purchase. Sometimes, <strong>customers became so exasperated</strong> with the slow phone process that they heavily resigned to buy tickets at the box office.</p>
+
+					<p>After a week of answering calls, I categorized incoming callers into two main personas to better understand the customer: the student (or spontaneous novice) and the donor (or loyal member).</p>
 				</div>
-			</div>
 
-			<hr>
+				<div class="pt-4">
+					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Customer Personas</h3>
 
-			<div class="py-4">
-				<h2 class="pb-2">Big issues with existing software</h2>
-				<div class="row pb-1">
-					<div class="col-lg-6 border border-light">
-						<img width="100%" src="Projects/nycc/nycc-tessitura-calendar.png" alt="This should be the image of the mockup."/>
+					<div class="row">
+						<div class="col-lg-6 border border-light">
+							<img width="100%" src="Projects/nycc/nycc-Julia.jpg" alt="User Persona (Julia): Elderly donor to NYCC. Majority of our incoming calls"/>
+						</div>
+						<div class="col-lg-6 border border-light">
+							<img width="100%" src="Projects/nycc/nycc-Juan.jpg" alt="User Persona (Juan): Student on a budget. Minority of our incoming calls"/>
+						</div>
 					</div>
-					<div class="pr-4 col-lg-6 pt-2">
-						<h4 class="text-secondary">Existing design was painful</h4>
-						<p>A key insight I gained on sales calls was that people generally knew what show they wanted to see.</p>
-						<p class="block-quote">They'd start the call by saying: "I'd like tickets for 'Love Life'".</p>
-						<p>Then, they'd want to pick a specific date and time.</p>
-						<p class="block-quote">"Do you have openings for Saturday mattinee (2 PM)?"</p>
-						<p>The existing calendar interface didn't allow sorting by show times, which made it painstaking to pick out specific show titles on each day.</p>
-					</div>
+
+					<p>Key Insight: With these two personas, the resulting product should be simple to use for both the elderly population as well as the younger generation. In addition, the initial prototype should just focus on perfecting the workflow to purchase tickets (additional needs like "viewing order history" or "cancelling orders" can be introduced later).</p>
 				</div>
+
+				<div class="pt-5">
+					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Quick Heuristic Evaluation</h3>
+
+					<div class="row pb-5">
+						<div class="pr-4 col-lg-6 pt-2">
+							<p>While establishing the two base personas, I also noticed that the information architecture of the existing software tool did not align with the typical flow of customer conversations when trying to purchase tickets.</p>
+
+							<p>In the main calendar page*, the layout makes it easy to find what shows are playing on a specific day but difficult to see available times for one particular show. However, customers didn't care about what <em>selection of shows</em> they had on a specific date. They wanted to know on what days/times <em>a specific show would play</em>. <strong>They need to select the show first and then a date/time, not the other way around.</strong></p>
+
+							<p><small>*This is a recreated wireframe representation of the interface.</small></p>
+						</div>
+						<div class="col-lg-6 border border-light">
+							<img width="100%" src="Projects/nycc/nycc-tessitura-calendar.png" alt="This should be the image of the mockup."/>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="pt-2">
+					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Additional Customer Empathy</h3>
+
+					<p>Due to the design of the existing tool, most calls went like this:</p>
+					<table>
+						<tr>
+							<td>Me:</td>
+							<td>"Hi this is CityTix, how can I help?"</td>
+						</tr>
+						<tr class="customer">
+							<td>Customer:</td>
+							<td>"I'd like tickets for [insert show name (e.g. 'Love Life')]."</td>
+						</tr>
+						<tr>
+							<td>Me:</td>
+							<td><em class="text-secondary">[looks at calendar page where there's no place to select a show]</em><br>
+								<br>"No problem at all, when would you like to see the show?"</td>
+						</tr>
+						<tr class="customer">
+							<td>Customer:</td>
+							<td>"How about this Saturday at 2 pm?"</td>
+						</tr>
+						<tr>
+							<td>Me:</td>
+							<td>"Sure, one moment, let me check the availability."<br><br>
+								<em class="text-secondary">[Takes 30 seconds to find 'this Saturday' on the calendar, scrolls painstakingly within the tiny rectangle of the date to find the words 'Love Life', squints at the interface because the text is too small, doesn't see 'Love Life'.]</em><br><br>
+							"Alright, I'm sorry, there aren't any tickets left for 2 pm. Do you have another date available?"</td>
+						</tr>
+						<tr class="customer">
+							<td>Customer:</td>
+							<td><em class="text-secondary">[Sighs in disappointment]</em>
+								<br><br>"Okay, well do you have tickets for any time that weekend? Or next weekend...well, maybe Thursday could work..."</td>
+						</tr>
+						<tr>
+							<td>Me:</td>
+							<td>"Sure, let me see if 'Love Life' is playing on any of those dates..."<br><br>
+								<em class="text-secondary">[takes 2 minutes to check each individual day and scan for the proper show title]</em></td>
+						</tr>
+						<tr class="customer">
+							<td>Customer:</td>
+							<td><em class="text-secondary">[slightly annoyed]</em>
+								<br><br>"How long is this going to take? Because I am about to get into a cab right now...can I call you back in 10 minutes?"</td>
+						</tr>
+						<tr>
+							<td>Me:</td>
+							<td><em class="text-secondary">[still trying to find 'Love Life' in the calendar page]</em><br><br>
+							"Yes, absolutely. Sorry about the delay. Bye."</td>
+						</tr>
+
+					</table>
+				</div>
+
+				<div class="pt-5">
+					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Problem Statement Definition</h3>
+					<p>As a result of my initial findings and observations, I wondered...</p>
+					<h4 class="block-quote">How might we design an app to help New York City Center's customers quickly and efficiently make an online purchase and be delighted at the end of the process?</h4>
+				</div>
+				
 			</div>
 
-			<hr>
-
 			<div class="py-4">
-				<h2 class="pb-2">Designing for the User</h2>
-				<h4 class="block-quote text-secondary mt-3 mb-5">"I'm a student and I want to purchase one ticket for Love Life on March 10 at 4 PM. I'd like the ticket all the way on stage left in the front row on the balcony."</h4>
-				<h4 class="text-secondary pb-3">Medium-Fidelity Prototype</h4>
-				<iframe src="https://drive.google.com/file/d/1dQ63rQ9gNfYqkJMF29LMtKtkUx0XtSG_/preview" width="100%" height="600"></iframe>
-				<h4 class="text-secondary pt-5 pb-3">High-Fidelity Prototype</h4>
-				<iframe src="https://drive.google.com/file/d/1ou-1pBT9If6bdshEiR-yqTeW_rQm9r6q/preview" width="100%" height="600"></iframe>
+				<h2 class=" pb-3 super-section-title cursive">Design for a Task</h2>
+
+				<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Customer Story and Initial Prototype</h3>
+
+				<p>With the problem statement defined and the need addressed, I typically move on to define the customer story. Defining the story helps keep the product direction focused on the customer's main goal without falling prey to cool new features that pop up not only in the designer's mind but in the minds of product managers and engineers, as well. Making sure the task is realistic given what has been witnessed out in the field, I developed the following storyline:</p>
+
+				<h4 class="block-quote text-secondary my-3">"As Julia, when I have a free moment in my day, I want to purchase one ticket for Love Life on March 10 at 4 PM. I'd like the ticket all the way on stage left in the front row on the balcony."</h4>
+
+				<div class="pt-3 d-sm-flex pb-5">
+					<div class="pr-4 mr-4">
+						<p>From here, depending on the scope of the project, I will either start with flow diagrams to map out the sequence of steps a customer will go through to complete a task or jump straight into a low/medium-fidelity prototype. Jumping into a low/medium-fidelity prototype sometimes helps me more efficiently work out the sequence of steps and screens than crafting a static concept diagram.</p>
+
+						<p>I created the prototype in Framer's web tool. The focus was to ensure that the customer can accomplish the story with little to no error or struggle.</p>
+					</div>
+					<div class="">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vVhQ_1l-svE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+						
+				</div>
+
+				<p class="section-title">Currently, I am sourcing potential users on whom to test this prototype/idea, so stay tuned for the next iteration and results!</p>
+
 			</div>
 
-
-			<div class="py-4">
+			<!--<div class="py-4">
 				<h2 class="pb-2">Next Steps</h2>
 				<ul>
 					<li>Add workflows to allow the user to see order history.</li>
 					<li>Add a sign up flow and sign out flow</li>
 					<li>Add a search experience</li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 					
 
