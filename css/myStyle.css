@@ -67,7 +67,7 @@ p.bio {
 /*
  * General Link Styling
  */
-a {
+/*a {
 	color: #d8518b;
 }
 a:visited {
@@ -81,7 +81,7 @@ a:active {
 a:focus {
 	color: #B42864;
 	text-decoration: none;
-}
+}*/
 
 hr.case-study-divider {
 	border-color: #e0e0e0;
@@ -118,21 +118,21 @@ hr.separator-sm {
 }
 
 .highlight {
-	color: #d8518b;
+	color: #007bff;
 }
 
 .navbar-light .navbar-brand {
-	color: #d8518b;
+	color: #007bff;
 }
 
 .section-title {
 	display: inline-block;
-	border-top: 0.25em solid #F4CEDE;
+	border-top: 0.25em solid #9dccff;
 	padding-top: 0.5em;
 }
 
 .super-section-title {
-	border-top: 0.25em solid #F4CEDE;
+	border-top: 0.25em solid #9dccff;
 	padding-top: 0.4em;
 }
 
@@ -148,7 +148,7 @@ hr.separator-sm {
 
 
 .bg-gradient {
-	background-image: linear-gradient(to bottom right, #EFB9D0, #FFDF03);
+	background-color: #d8ebff;
 }
 
 .bg-fade {
