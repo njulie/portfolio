@@ -55,160 +55,138 @@
 
 			<div class="d-lg-flex py-md-5 my-3">
 				<div class="pr-sm-5">
-					<h5 class="pb-2 text-secondary">Mobile UI/UX Design</h5>
-					<h1 class="pb-1">CityTix</h1>
-					<p>CityTix is a passion project* (ticket purchasing app) I initiated while working at New York City Center in 2020, Manhattan's oldest performing arts venue.</p>
+					<h4 class="pb-2 text-secondary">Mobile UI/UX Design</h4>
+					<h1 class="pb-1 cursive font-weight-bolder">CityTix</h1>
+					<p>CityTix is a passion project*. The mobile app is designed for a performing arts theater to aid in ticket sales.</p>
 
-					<p>Throughout this project, I conducted field observations, created customer personas, crafted lo-fi wireframes, high-fi mockups, and a working prototype to better realize my vision.</p>
+					<p>I conducted field observations, created customer personas, and built multiple prototypes to better realize my vision.</p>
 					
 					<p class="pt-5"><small>*Disclaimer: This is neither part of a company nor a launched product.</small></p>
 				</div>
 				<div>
-					<img class="secondary-page-image" src="Projects/nycc/nycc-cover.png" alt="This is a screenshot of the mobile app"/>
+					<img class="secondary-page-image" src="Projects/nycc/nycc-cover-square.png" alt="This is a screenshot of the mobile app"/>
 				</div>
 			</div>
 
-			<div class="py-5 my-3">
-				<h2 class="super-section-title cursive">Research</h2>
-
-				<div class="pt-4">
-					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Field Observations</h3>
-
-					<p>As a call center representative at New York City Center (NYCC), I talked to customers over the phone and helped them buy tickets for shows they wanted to see. While working there, I saw and felt firsthand how <strong>difficult and frustrating</strong> it was for customers (and sales reps) to complete an online ticket purchase.</p>
-					
-					<p>The <strong>enterprise software (Tessitura) we were using was clunky, outdated, and error prone</strong>, and customers often had to repeat the same information multiple times to sales representatives, keeping both parties on the phone for longer than necessary (sometimes resulting in a failed sale).</p>
-
-					<p>Many customers were also on-the-go</strong>, calling to buy tickets because they had a spare moment in their day. One man was getting into a cab as he called in (he had to call back at a later time); one woman was rummaging through her purse to find details for the show ticket she wanted to purchase. Sometimes, <strong>customers became so exasperated</strong> with the slow phone process that they heavily resigned to buy tickets at the box office.</p>
-
-					<p>After a week of answering calls, I categorized incoming callers into two main personas to better understand the customer: the student (or spontaneous novice) and the donor (or loyal member).</p>
+			<div class="py-5 my-5">
+				<h4 class="mt-5 py-3 super-section-title section-title text-secondary font-weight-light">Research</h4>
+				<div class="pb-5">
+					<h2 class="cursive pb-2">Understand the Customer</h2>
+					<p>The first step in my process is to conduct field observations and discover where customer pain points are. These findings then lead to a set of customer personas to help drive design direction through the prototyping process.</p>
 				</div>
 
-				<div class="pt-4">
-					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Customer Personas</h3>
-
-					<div class="row">
-						<div class="col-lg-6 border border-light">
-							<img width="100%" src="Projects/nycc/nycc-Julia.jpg" alt="User Persona (Julia): Elderly donor to NYCC. Majority of our incoming calls"/>
-						</div>
-						<div class="col-lg-6 border border-light">
-							<img width="100%" src="Projects/nycc/nycc-Juan.jpg" alt="User Persona (Juan): Student on a budget. Minority of our incoming calls"/>
-						</div>
+				<div class="row">
+					<div class="col-lg-6 py-4">
+						<img class="" width="100%" src="Projects/nycc/nycc-outside.jpg" alt="This is a picture of the New York City Center Theater."/>
 					</div>
-
-					<p>Key Insight: With these two personas, the resulting product should be simple to use for both the elderly population as well as the younger generation. In addition, the initial prototype should just focus on perfecting the workflow to purchase tickets (additional needs like "viewing order history" or "cancelling orders" can be introduced later).</p>
-				</div>
-
-				<div class="pt-5">
-					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Quick Heuristic Evaluation</h3>
-
-					<div class="row pb-5">
-						<div class="pr-4 col-lg-6 pt-2">
-							<p>While establishing the two base personas, I also noticed that the information architecture of the existing software tool did not align with the typical flow of customer conversations when trying to purchase tickets.</p>
-
-							<p>In the main calendar page*, the layout makes it easy to find what shows are playing on a specific day but difficult to see available times for one particular show. However, customers didn't care about what <em>selection of shows</em> they had on a specific date. They wanted to know on what days/times <em>a specific show would play</em>. <strong>They need to select the show first and then a date/time, not the other way around.</strong></p>
-
-							<p><small>*This is a recreated wireframe representation of the interface.</small></p>
-						</div>
-						<div class="col-lg-6 border border-light">
-							<img width="100%" src="Projects/nycc/nycc-tessitura-calendar.png" alt="This should be the image of the mockup."/>
-						</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Field Observations</h3>
+						<p>Since New York City Center (NYCC) is one of Manhattan's performing arts theaters, I started my research there. I talked on the phone with customers, helped them buy tickets over the phone, and interviewed NYCC staff members. </p>
+						<p>Many customers were on-the-go while buying tickets over the phone (e.g. in a cab, walking around their apartment, out in NYC), which often introduced loud background noises and other distractions. <strong>This key insight later factored into my decision to create a mobile app, since mobile apps are ideal for on-the-go experiences.</strong></p>
 					</div>
-
 				</div>
 
-				<div class="pt-2">
-					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Additional Customer Empathy</h3>
-
-					<p>Due to the design of the existing tool, most calls went like this:</p>
-					<table>
-						<tr>
-							<td>Me:</td>
-							<td>"Hi this is CityTix, how can I help?"</td>
-						</tr>
-						<tr class="customer">
-							<td>Customer:</td>
-							<td>"I'd like tickets for [insert show name (e.g. 'Love Life')]."</td>
-						</tr>
-						<tr>
-							<td>Me:</td>
-							<td><em class="text-secondary">[looks at calendar page where there's no place to select a show]</em><br>
-								<br>"No problem at all, when would you like to see the show?"</td>
-						</tr>
-						<tr class="customer">
-							<td>Customer:</td>
-							<td>"How about this Saturday at 2 pm?"</td>
-						</tr>
-						<tr>
-							<td>Me:</td>
-							<td>"Sure, one moment, let me check the availability."<br><br>
-								<em class="text-secondary">[Takes 30 seconds to find 'this Saturday' on the calendar, scrolls painstakingly within the tiny rectangle of the date to find the words 'Love Life', squints at the interface because the text is too small, doesn't see 'Love Life'.]</em><br><br>
-							"Alright, I'm sorry, there aren't any tickets left for 2 pm. Do you have another date available?"</td>
-						</tr>
-						<tr class="customer">
-							<td>Customer:</td>
-							<td><em class="text-secondary">[Sighs in disappointment]</em>
-								<br><br>"Okay, well do you have tickets for any time that weekend? Or next weekend...well, maybe Thursday could work..."</td>
-						</tr>
-						<tr>
-							<td>Me:</td>
-							<td>"Sure, let me see if 'Love Life' is playing on any of those dates..."<br><br>
-								<em class="text-secondary">[takes 2 minutes to check each individual day and scan for the proper show title]</em></td>
-						</tr>
-						<tr class="customer">
-							<td>Customer:</td>
-							<td><em class="text-secondary">[slightly annoyed]</em>
-								<br><br>"How long is this going to take? Because I am about to get into a cab right now...can I call you back in 10 minutes?"</td>
-						</tr>
-						<tr>
-							<td>Me:</td>
-							<td><em class="text-secondary">[still trying to find 'Love Life' in the calendar page]</em><br><br>
-							"Yes, absolutely. Sorry about the delay. Bye."</td>
-						</tr>
-
-					</table>
+				<div class="pt-5 row">
+					<div class="col-lg-6 py-4">
+						<img width="90%" src="Projects/nycc/nycc-Julia.jpg" alt="User Persona (Julia): Elderly donor to NYCC. Majority of our incoming calls">
+						<img width="90%" src="Projects/nycc/nycc-Juan.jpg" alt="User Persona (Juan): Student on a budget. Minority of our incoming calls">
+					</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Customer Personas</h3>
+						<p><strong>Through my phone calls and interviews, two personas emerged.</strong></p>
+						<p>Most callers were people like Julia. They belonged to the elderly population and were most likely loyal customers who attend a show once a month. They may be less adept with using technology, which means the app design should stay away from new trends and stick with ones late mobile adopters are already familiar with.</p>
+						<p>The rest of the callers were people like Juan. They were likely in their 20s and 30s, potential students, more price-sensitive, and less frequent show-attenders.</p>
+						<p><strong>The personas indicated that the design should guide "Julias" through the app ("Juans" would need less guidance) and provide enough information for the "Juans" to learn about the shows ("Julias" would likely be familiar with the shows already).
+					</div>
 				</div>
 
-				<div class="pt-5">
-					<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Problem Statement Definition</h3>
-					<p>As a result of my initial findings and observations, I wondered...</p>
-					<h4 class="block-quote">How might we design an app to help New York City Center's customers quickly and efficiently make an online purchase and be delighted at the end of the process?</h4>
+				<div class="pt-5 row">
+					<div class="col-lg-6 py-4">
+						<img width="100%" src="Projects/nycc/tessitura-example.png" alt="This is an example screenshot of Tessitura's interface."/>
+						<p><small><em>Sample screenshot of Tessitura</em></small></p>
+					</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Heuristic Evaluation</h3>
+						<p><strong>The existing customer experience was painful for several reasons.</strong></p>
+						<p>Tessitura, the software sales reps were using to handle ticket sales, was difficult to use and prone to errors, which forced customers to repeat themselves over the phone and made it harder to follow through with a sale.</p>
+					</div>
+				</div>
+
+				<div class="pt-5 row">
+					<div class="col-lg-6 py-4">
+						<img width="100%" src="Projects/nycc/nycc-tessitura-calendar.png" alt="Recreated calendar screen of Tessitura at New York City Center">
+						<p><small><em>A recreated version of the calendar page NYCC staff used</em></small></p>
+					</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Heuristic Evaluation (cont.)</h3>
+						<p>Customers almost always specified ticket details in this order:</p>
+						<ol>
+							<li>Show name</li>
+							<li>Date</li>
+							<li>Time</li>
+							<li>Seating</li>
+						</ol>
+						<p>But Tessitura's calendar view did not follow the customer's mental model, which made the experience difficult. There was no way to search tickets by show name.</p>
+						<p><strong>In the mobile app solution later, I would make sure the customer could search tickets by show name first.</strong></p>
+					</div>
 				</div>
 				
 			</div>
 
 			<div class="py-4">
-				<h2 class=" pb-3 super-section-title cursive">Design for a Task</h2>
+				<h4 class="py-3 super-section-title section-title text-secondary font-weight-light">Design</h4>
+				<h2 class="pb-3 cursive">Hypothesize, Create, Test</h2>
 
-				<h3 class="pt-3 pb-2 text-secondary font-weight-light sub-section-title">Customer Story and Initial Prototype</h3>
+				<p>After research, I typically jump straight into creating low-fidelity screens to get ideas out on paper, run it by a few people to validate macro-level workflow architecture, and then revise and add in more detail.</p>
+				<p>I intentionally restrain from adding too much interaction or detail in the first few versions so the customer feels more comfortable providing negative feedback, seeing a rough first draft.</p>
 
-				<p>With the problem statement defined and the need addressed, I typically move on to define the customer story. Defining the story helps keep the product direction focused on the customer's main goal without falling prey to cool new features that pop up not only in the designer's mind but in the minds of product managers and engineers, as well. Making sure the task is realistic given what has been witnessed out in the field, I developed the following storyline:</p>
-
-				<h4 class="block-quote text-secondary my-3">"As Julia, when I have a free moment in my day, I want to purchase one ticket for Love Life on March 10 at 4 PM. I'd like the ticket all the way on stage left in the front row on the balcony."</h4>
-
-				<div class="pt-3 d-sm-flex pb-5">
-					<div class="pr-4 mr-4">
-						<p>From here, depending on the scope of the project, I will either start with flow diagrams to map out the sequence of steps a customer will go through to complete a task or jump straight into a low/medium-fidelity prototype. Jumping into a low/medium-fidelity prototype sometimes helps me more efficiently work out the sequence of steps and screens than crafting a static concept diagram.</p>
-
-						<p>I created the prototype in Framer's web tool. The focus was to ensure that the customer can accomplish the story with little to no error or struggle.</p>
+				<div class="py-5 row">
+					<div class="col-lg-4 align-self-center">
+						<h3 class="pb-3 cursive">Wireframes Version 1</h3>
+						<p>I mocked up a low-fidelity prototype in Figma and conducted a usability test with three people (two in their 50s and one 30 year old).</p>
+						<p>I asked them to use the prototype to purchase tickets for the show "NDT" on a specific day and time. All three people were amateur show-attendees.</p>
+						<p>Feedback is recorded in pink. <strong>The biggest takeaway was to help orient customers while finding seats (use a seating map).</strong></p>
+						<a href="https://docs.google.com/document/d/1HQBnK_2dP6IxqNcjy_SPJmmcLNOHcZ5sXwHuhFdf9SA/edit?usp=sharing" target="_blank">View Raw Notes</a>
 					</div>
-					<div class="">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/vVhQ_1l-svE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="col-lg-8">
+						<img width="100%" src="Projects/nycc/nycc-wireframesv1-flow.png" alt="Screenshot of UX workflow for iteration 1">
 					</div>
-						
+				</div>
+				
+
+				<div class="py-5 row">
+					<div class="col-lg-4 align-self-center">
+						<h3 class="pb-3 cursive">Wireframes Version 2</h3>
+						<p>Based on the feedback, I created a second medium-fidelity prototype in Framer with the following revisions:</p>
+						<ol style="font-weight:400;">
+							<li>Added a first time user experience</li>
+							<li>Added a search experience; removed show genre on first page because not many customers cared about/used the genre</li>
+							<li>Improved seat selection with interactive map</li>
+							<li>Refined the scan credit card experience</li>
+							<li>Added in some motion/animations to simulate real app behavior</li>
+						</ol>
+					</div>
+					<div class="col-lg-8">
+						<img width="100%" src="Projects/nycc/nycc-wireframesv2-flow.png" alt="Screenshot of UX workflow for iteration 2">
+					</div>
 				</div>
 
-				<p class="section-title">Currently, I am sourcing potential users on whom to test this prototype/idea, so stay tuned for the next iteration and results!</p>
+				<div class="py-5 row">
+					<div class="col-lg-4 align-self-center">
+						<h3 class="pb-3 cursive">Final Prototype</h3>
+						<p>After a second round of user testing with three people, I crafted a final version of the prototype.</p>
+						<ol style="font-weight:400;">
+							<li>Added splash screen and illustrations into the first time experience</li>
+							<li>Updated the visual design of all mockups</li>
+							<li>Updated time selection (modal)</li>
+						</ol>
+					</div>
+					<div class="col-lg-8">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vVhQ_1l-svE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
 
 			</div>
-
-			<!--<div class="py-4">
-				<h2 class="pb-2">Next Steps</h2>
-				<ul>
-					<li>Add workflows to allow the user to see order history.</li>
-					<li>Add a sign up flow and sign out flow</li>
-					<li>Add a search experience</li>
-				</ul>
-			</div>-->
 		</div>
 					
 
