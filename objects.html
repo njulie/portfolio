@@ -55,101 +55,111 @@
 				<div class="spacer-med"></div>
 			</div>
 
-			<div class="d-lg-flex py-md-5 my-3">
-				<div class="pr-sm-5">
+			<div class="row py-md-5 my-3">
+				<div class="pr-sm-5 col-lg-6">
 					<h4 class="pb-2 text-secondary">Product Design Owner</h4>
 					<h1 class="pb-1 cursive">Objects</h1>
 					<p>Objects is an enterprise web app that makes it easy to store, serve, backup, and archive data for developer applications. I worked on a cross-global team (US and Bangalore), consisting of two product managers and 10+ engineers.</p>
 					<p>I was the sole designer on this product, partnering with product managers to use market and customer research to inform design decisions, creating all design assets (user story documentation, UX vision presentations, wireframes and mockups) and working with engineers during implementation.</p>
 				</div>
-				<div>
+				<div class="col-lg-6">
 					<img class="secondary-page-image" src="Projects/objects/objects-cover.png" alt="This is a screenshot of the Objects UI."/> 
 				</div>
 			</div>
 
-			<hr>
+			<div class="py-5 my-5">
+				<h4 class="mt-5 py-3 super-section-title section-title text-secondary font-weight-light">Research and Requirements</h4>
+				<h2 class="cursive pb-2">Understand the Field</h2>
 
-			<div class="py-4">
-				<div class="d-md-flex">
-					<div class="pr-5">
-						<h3 class="pb-2 cursive">The Problem</h3>
-						<p id="task">In a world where data is growing at an exponential rate, IT admins have to keep up. Traditional storage systems aren't equipped to handle petabytes of data, but object storage is.</p>
-						<p>Objects was designed to give IT admins a scalable solution that their teams and developers can use to store data, retrieve files quickly, protect against accidental file deletion and archive data to satisfy legal compliance (useful for finance, healthcare, and legal organizations).</p>
+				<div class="row py-5">
+					<div class="col-lg-4 py-4">
+						<img class="secondary-page-image" src="Projects/objects/petabyte.gif" alt="This is an infographic of petabyte of data"/>
+						<p><small>Source: <a href="https://www.pecanstreet.org/2018/10/big-data-anyone/" target="_blank">Pecan Street</a></small></p>
 					</div>
-					<div class="py-4">
-						<img class="secondary-page-image" src="Projects/objects/petabytes.jpg" alt="This is an image of a data center of servers."/>
+					<div class="col-lg-8 py-4 align-self-center">
+						<h3 class="cursive">The Problem</h3>
+
+						<p>To put data into perspective, I first researched infographics to understand real world use cases for storing big data. Make the intangible more tangible. With the growth in data, <a href="https://media2.govtech.com/images/940*639/Understanding-How-Big-Data-Flows-in-Healthcare-thumb.jpg" target="_blank">hospitals need object storage (source)</a>, and <a href="https://twitter.com/quantumcorp/status/631164158294257664" target="_blank">so does law enforcement (source).</a></p>
+						<p>Then, I read up on the technical documentation for how object storage differed from other storage architectures (file and block) and ultimately learned that object storage is the only architecture that is equipped to handle data at scale (I could go further into detail into what it is about the architecture that makes it this way, but this would become much more technical than it has to be!).</p>
+						<p><strong>Based on early customer interviews, we discovered that IT teams don't really know how much data they need to store or how fast they wanted the service to run, which we later used as an opportunity to add textual guidance within the product when admins would set up the service to help them out.</strong></p>
 					</div>
 				</div>
+
+				<div class="row py-5">
+					<div class="col-lg-4 py-4">
+						<img class="secondary-page-image" src="Projects/objects/personas.jpg" alt="This is an image of user icons"/>
+					</div>
+					<div class="col-lg-8 py-4 align-self-center">
+						<h3 class="cursive">User Personas and Stories</h3>
+
+						<p>Following early customer interviews, I established <a href="https://drive.google.com/file/d/1BvcjCSCMMEbZhdHN5iPsXZzYnEPL6L7T/view?usp=sharing" target="_blank">three key user personas and seven workflow scenarios (see sample of presentation)</a> to ensure we were designing the product with IT admins in mind.</p>
+						<p>I presented these key workflows to the team so that everyone was thinking from the perspective of the customer (this helped focus on designing first for experience rather than building in more features). In addition, I created and shared a <a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">doc to track the full list of user stories (see doc)</a> our MVP would support.</p>
+					</div>
+				</div>
+
+				<div class="row py-5">
+					<div class="col-lg-4 py-4">
+						<img class="" width="100%" src="Projects/objects/lightbulb.png" alt="This is an image of a lightbulb"/>
+					</div>
+					<div class="col-lg-8 align-self-center py-4">
+						<h3 class="cursive">Competitive Analysis / Inspiration</h3>
+						<p>Finally, I looked within the competitive landscape to identify how we could distinguish our product from all the other object storage solutions out there.</p>
+						<p><a href="Projects/objects/aws3-UI.png" target="_blank">Amazon s3's object storage solution is powerful and robust</a> but also complex and overwhelming for a novice IT admin. Despite the complexity, it is the most prevalent tool used today, and the fact that admins are already familiar with the workflows is something to acknowledge and consider in our designs.</p>
+						<p><a href="Projects/objects/spaces-UI.png" target="_blank">Digital Ocean's object storage solution is lighter and less intimidating for novice users.</a> It brings a lighter feel into what is traditionally heavy and complex. I looked to them early on for inspiration because they challenged the status quo by adopting a metaphor that both connected beautifully to their brand and conveyed a new mental model of how to understand storage architecture.</p>
+					</div>
+				</div>
+
 			</div>
 
-			<hr>
 
-			<div class="py-5">
-				<h3 class="pb-2 cursive">Users and Requirements</h3>
-				<p>In the beginning of the design process, I received a list of engineering requirements of what features the team needed/wanted to build. I worked constantly with the Product Manager and tech leads to clarify what each technical requirement meant for the admin, reframing each requirement into a task that was done from the admin's perspective. I also crafted personas and scenarios and presented them to the team early on to get the team aligned on creating a product that was human-centered, not feature-focused.</p>
-				<div class="py-4">
-					<h4 class="cursive text-secondary">UX Deliverables</h4>
-					<a href="https://drive.google.com/file/d/1BvcjCSCMMEbZhdHN5iPsXZzYnEPL6L7T/view?usp=sharing" target="_blank">View sample of persona presentation</a>
-					<br>
-					<a href="https://drive.google.com/file/d/1MoEMD6PHm4i24PV95NIhlm-j-Dt2HnWL/view?usp=sharing" target="_blank">View full list of user stories and their associated technical requirements</a>
+
+			<!--<p>As the sole designer, I wanted the team to take a similar approach, present technical terms in simpler to understand concepts, but I ran into my first challenge; influencing a team of industry experts resistant to change and insistant on following what is considered "standard" in the enterprise field. After several discussions and meetings around terminology, I decided to make an early sacrifice within design to gain rapport with the team so that later down the line I'd have a greater chance of receiving buy-in for design-led decisions.</p>
+						<p>As I researched the complexities of the object storage experience, I asked more and more questions. How will IT admins understand this complex topic through our product? How will admins learn to use the tool? How can we create an experience where they don't need to read lengthy documentation to understand the product?</p>-->
+
+
+			<div class="py-4">
+				<h4 class="py-3 super-section-title section-title text-secondary font-weight-light">Design</h4>
+				<h2 class="pb-3 cursive">Create, Iterate, Discard</h2>
+
+				<p>After the research and understanding phase, I started putting together task flow diagrams, medium-fidelity mockups, and ultimately high-fidelity mockups (using our design system and components in Sketch).</p>
+
+				<div class="row py-5">
+					<div class="col-lg-6 py-4">
+						<img class="" width="100%" src="Projects/objects/diagrams/overall-user-workflow.png" alt="This is an image of the overall user workflows"/>
+					</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Overall Experience</h3>
+						<p>An IT admin follows this sequence of steps to use the service. I documented this to clarify the experience within the overall product team.</p>
+					</div>
 				</div>
 
-				<hr>
-
-				<div class="py-4">
-					<div class="pb-4">
-						<h3 class="pb-2 cursive">Design Sample 1: Create Object Store</h3>
-						<div class="row py-3">
-							<div class="col-lg-4 pb-4">
-								<h4 class="text-secondary cursive pb-2">Iteration 1: Visual Exploration</h4>
-								<p>The admin has to decide how much storage they need to allocate and what kind of performance they want to achieve. Storage for archived data typically have a lower performance, while storage that has data accessed often needs to have a higher level of performance.</p>
-								<a href="https://drive.google.com/file/d/12Gmbf-BLsjZ-4prpPa1tw0BsjSkFGg-p/view?usp=sharing" target="_blank">View sample of high-fidelity mockups</a>
-							</div>
-							<div class="col-lg-8">
-								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-1.png" alt="One image of the first design iteration"/>
-							</div>
-						</div>
-
-						<div class="row py-3">
-							<div class="col-lg-4">
-								<h4 class="pb-2 cursive text-secondary">Iteration 2: Form</h4>
-								<p>The first design was based upon the assumption that admins would like to see how changing one input (e.g. capacity) would impact another input (e.g. performance). However, we learned that as the capacity increases, the performance doesn't necessarily increase.</p>
-								<p>For example, admins may want to allocate a lot of storage and have performance be low if they intend to store archived data that doesn't need to be frequently accessed. As a result, I separated capacity and performance into two separate sections.</p>
-							</div>
-							<div class="col-lg-8">
-								<img class="secondary-page-image border border-medium" src="Projects/objects/objects-iteration-2.png" alt="One image of the second design iteration"/>
-							</div>
-						</div>
+				<div class="row py-5">
+					<div class="col-lg-6 py-4">
+						<img class="" width="100%" src="Projects/objects/diagrams/day1-workflow.png" alt="This is an image of the user workflows on day 1"/>
 					</div>
-
-					<hr>
-
-					<div class="py-4">
-						<div class="pb-4">
-							<h3 class="pb-2 cursive">Design Sample 2: Legal Compliance</h3>
-							<div class="row py-3">
-								<div class="col-lg-4 pb-4">
-									<h3 class="pb-2 cursive text-secondary">Iteration 1: Integrated Popup</h3>
-									<p>I designed this under the assumption that admins/developers would want to create a folder (bucket is the technical term) initially dedicated to storing files for archival purposes. This bucket would contain photos, videos, documents and other media files that are unalterable. As such, in the workflow to create a bucket, I included the WORM setting (technical term for archival purposes) - only to be separated out after user testing with 5 customers.</a>
-								</div>
-								<div class="col-lg-8">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/worm-iteration-1.png" alt="One image of the first design iteration"/>
-								</div>
-							</div>
-
-							<div class="row py-3">
-								<div class="col-lg-4">
-									<h3 class="pb-2 cursive text-secondary">Iteration 2: Separated Popup</h3>
-									<p>After testing the workflow with five customers, I learned that admins/developers don't really think about archival use cases when they create a bucket. They only get the legal requirement later in the process when they've already created the bucket and have started storing files in it. As such, it's not appropriate to incorporate the WORM section in the creation workflow, so I separated it into its own workflow.</a>
-								</div>
-								<div class="col-lg-8">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/worm-iteration-2.png" alt="One image of the second design iteration"/>
-								</div>
-							</div>
-						</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Day 1 Experience</h3>
+						<p>An IT admin needs to install the service, create object stores and buckets, and add people to the object store so that developers can start using the service.</p>
+						<a href="https://drive.google.com/file/d/1WFwudhWDLtwtuVCorZHhiptLTkRTrRsE/view?usp=sharing" target="_blank">See final designs (PDF)</a>
 					</div>
+				</div>
 
-					<hr>
+				<div class="row py-5">
+					<div class="col-lg-6 py-4">
+						<img class="" width="100%" src="Projects/objects/diagrams/dayn-workflow.png" alt="This is an image of the user workflows on day 'n'"/>
+					</div>
+					<div class="col-lg-6 align-self-center py-4">
+						<h3 class="cursive">Day "n" Experience</h3>
+						<p>An IT admin needs to monitor overall stats, usage and performance.</p>
+						<p>Devs need to create buckets to store data and do other actions on it (e.g. share buckets with other developers like sharing access to Google Docs, "lock" buckets so no files can be altered for legal purposes).</p>
+						<a href="" target="_blank">See Designs to monitor stats, usage, and performance</a><br>
+						<a href="" target="_blank">See Designs to create, share, and "lock" a bucket</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="py-5">
 
 					<div class="pt-4">
 						<div class="pb-4">
@@ -158,23 +168,6 @@
 							<p>Early in the design process, I explored some ways to help admins get an overview of what types of objects/files are stored in their environment. We assumed that seeing a distribution of data by their size and where (what clusters) the data resided on would help admins better understand their storage environment and troubleshoot issues.</p>
 							<p>These explorations were scrapped after conducting a user test with five different admins. I discovered that while they understood what the visualizations were trying to convey, they expressed that they didn't know what to do with the information. In their day-to-day use of the product, they wouldn't find any value in seeing the visuals. While the engineers on the team were enthusiastic towards the visuals due to the "wow" factor, I decided it was better to keep the user interface filled with elements and actions admins would actually need on their day-to-day jobs rather than wow them once and leave them with irrelevant visuals on every day after.</p>
 							<a href="https://drive.google.com/file/d/1W8PqXPmuTNqdiFQlJMFgJNJ_8yJ1Clqo/view?usp=sharing" target="_blank">View all medium-fidelity mockups</a>
-							<!--<div class="row py-3">
-								<div class="col-lg-6 pb-4">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/visual1.png" alt="Image of a circular visualization"/>
-								</div>
-								<div class="col-lg-6">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/visual2.png" alt="Image of a circular visualization"/>
-								</div>
-							</div>
-
-							<div class="row py-3">
-								<div class="col-lg-6 pb-4">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/visual3.png" alt="Image of a circular visualization"/>
-								</div>
-								<div class="col-lg-6">
-									<img class="secondary-page-image border border-medium" src="Projects/objects/visual4.png" alt="Image of a data visualization"/>
-								</div>
-							</div>-->
 						</div>
 					</div>
 
@@ -193,7 +186,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 		</div>
 					
