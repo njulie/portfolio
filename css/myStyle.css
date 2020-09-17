@@ -27,7 +27,8 @@ body {
 
 h1 {
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1.75rem;
+	line-height: 1.5em;
 }
 
 h2 {
@@ -49,7 +50,7 @@ p {
 p.bio {
 	line-height: 1.6em;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1em;
 }
 
 .case-study p {
@@ -332,12 +333,17 @@ tr.customer {
 @media screen and (min-width: 1024px) { /*sm laptop*/
 	h1 {
 		font-size:4rem;
+		line-height: 1.25em;
 	}
 	h2 {
 		font-size:2.75rem;
 	}
 	h5 {
 		font-size: 1.25rem;
+	}
+	p.bio {
+		font-size: 1.5em;
+		line-height: 1.65em;
 	}
 
 }
